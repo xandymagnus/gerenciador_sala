@@ -4,9 +4,13 @@ body {
     color: #333;
 }
 
+.dia {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 
-
-header {
+.titulo {
     background: linear-gradient(90deg, #E30613, #ff3b3b);
     color: white;
     text-align: center;
@@ -19,11 +23,11 @@ header {
 .container {
     max-width: 1100px;
     margin: 40px auto;
-    background: white;
+    background: linear-gradient(90deg, #E30613, #ff3b3b);
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-
+    color: white;
 }
 
 .infos {
