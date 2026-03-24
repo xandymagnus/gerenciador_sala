@@ -48,7 +48,6 @@ header img{
     grid-template-columns: 1fr 1fr 1fr 1.5fr 1fr; 
     gap: 10px;
     padding: 15px;
-    margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-align: center;
@@ -57,7 +56,7 @@ header img{
 .infos {
     background: linear-gradient(90deg, #E30613, #ff3b3b);
     color: white;
-    margin: 40px auto 20px;
+    margin: 20px auto 20px;
 }
 
 .aula {
@@ -71,4 +70,15 @@ header img{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+
+
+.dia::before,
+.dia::after {
+    content: "——————————————————————";
+    flex: 1;
+    height: 1px;
+    color: #f89ba1;
+    margin: 10px;
 }
