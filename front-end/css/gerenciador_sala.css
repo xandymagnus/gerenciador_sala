@@ -31,6 +31,7 @@ header img{
     font-weight: bold;
     color: aliceblue;
     height: 15vh;
+    font-family: "Lato", sans-serif;
 }
 
 .dia {
@@ -45,12 +46,13 @@ header img{
 
 .infos, .aula {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1.5fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr 1fr; 
     gap: 10px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-align: center;
+    font-family: "Lato", sans-serif;
 }
 
 .infos {
