@@ -43,27 +43,24 @@ header img{
 }
 
 
+.infos, .aula {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 1fr; 
+    gap: 10px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
 .infos {
-    margin: 40px auto;
     background: linear-gradient(90deg, #E30613, #ff3b3b);
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
     color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    margin: 40px auto 20px;
 }
 
 .aula {
     background: white;
     color: #E30613;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    margin: 10px;
-    text-align: center; 
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
 }
