@@ -1,3 +1,4 @@
+// Adicionando dia da semana interativo
 const dias = [
     "domingo",
     "SEGUNDA",
@@ -24,3 +25,13 @@ aulas.forEach(aula => {
 document.querySelectorAll("." + nomeDia).forEach(aula => {
     aula.style.display = "block";
 });
+// Criando lógica para trocar Manhã -> Noite assim que for 18:00
+const horaAtual = new Date().getHours();
+
+const titulo = document.querySelector(".titulo");
+
+if (horaAtual >= 18) {
+    titulo.textContent = "QUADRO DE HORÁRIOS - NOITE";
+} else {
+    titulo.textContent = "QUADRO DE HORÁRIOS - MANHÃ";
+}
