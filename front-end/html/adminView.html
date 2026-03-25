@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin View</title>
+    <link rel="icon" href="../imagens/logo_html.png">
+    <link rel="stylesheet" href="../css/reset.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="../imagens/logo_css.png" alt="logo">
+            <h1>Aulas</h1>
+        </div>
+    </header>
+        
+    <select name="Dia" id="dia" class="dia">
+        <option value="segunda">Segunda</option>
+        <option value="terca">Terça</option>
+        <option value="quarta">Quarta</option>
+        <option value="quinta">Quinta</option>
+        <option value="sexta">Sexta</option>
+    </select>
+
+    <div class="container">
+        <div class="infos">
+            <h2 class="curso" id="curso">CURSO</h2>
+            <h2 class="materia" id="materia">MÁTERIA</h2>
+            <h2 class="prof" id="prof">PROFESSOR</h2>
+            <h2 class="sala" id="sala">SALA</h2>
+            <h2 class="horario" id="horario">HORÁRIO</h2>
+            <h2 class="sems" id="sems">SEMESTRE</h2>
+        </div>
+
+        <div class="campos">
+            <select name="Curso" id="curso" class="curso">
+                <option value="ciencia_da_computacao">Ciência da Computação</option>
+                <option value="analise_e_desenvolvimento_de_sistema">Análise e Desenvolvimento de Sistemas</option>
+                <option value="nutricao">Nutrição</option>
+                <option value="medicina">Medicina</option>
+                <option value="veterinaria">Veterinária</option>
+            </select>
+
+            <select name="Matéria" id="materia" class="materia">
+                <option value="desenvolvimento_em_javascript">Desenvolvimento em Javascript</option>
+                <option value="anatomia">Anatomia</option>
+                <option value="matematica_discreta">Matemática Discreta</option>
+            </select>
+
+            <select name="Professor" id="prof" class="prof">
+                <option value="marcio">Marcio</option>
+                <option value="claudio">Claudio</option>
+                <option value="vera">Vera</option>
+            </select>
+
+            <select name="Sala" id="sala" class="sala">
+                <option value="402d">402 D</option>
+                <option value="401d">401 D</option>
+                <option value="lab1">Lab 1</option>
+            </select>
+
+            <select name="Horário" id="horario" class="horario">
+                <option value="08:20-10:20">08:20-10:20</option>
+                <option value="08:20-10:20">08:20-11:20</option>
+                <option value="08:20-10:20">10:20-12:00</option>
+            </select>
+
+            <select name="Semestre" id="sems" class="sems">
+                <option value="1">1º</option>
+                <option value="2">2º</option>
+                <option value="3">3º</option>
+            </select>
+        </div>
+    </div>
 </body>
 </html>
