@@ -6,22 +6,27 @@
     <title>Admin View</title>
     <link rel="icon" href="../imagens/logo_html.png">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/adminview.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="../imagens/logo_css.png" alt="logo">
-            <h1>Aulas</h1>
+            <h1 class="titulo">AULAS</h1>
         </div>
     </header>
-        
-    <select name="Dia" id="dia" class="dia">
-        <option value="segunda">Segunda</option>
-        <option value="terca">Terça</option>
-        <option value="quarta">Quarta</option>
-        <option value="quinta">Quinta</option>
-        <option value="sexta">Sexta</option>
-    </select>
+    <div class="dia">
+        <select name="Dia" id="dia" class="select_dia">
+            <option value="segunda">SEGUNDA</option>
+            <option value="terca">TERÇA</option>
+            <option value="quarta">QUARTA</option>
+            <option value="quinta">QUINTA</option>
+            <option value="sexta">SEXTA</option>
+        </select>
+    </div>    
 
     <div class="container">
         <div class="infos">
