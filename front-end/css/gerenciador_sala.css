@@ -60,6 +60,7 @@ header img{
     background: linear-gradient(90deg, #E30613, #ff3b3b);
     color: white;
     margin: 20px auto 20px;
+    text-transform: uppercase;
 }
 
 .aula {
@@ -67,9 +68,8 @@ header img{
     color: #E30613;
     margin: 5px auto 5px;
 
+
 }
-
-
 
 .dia::before,
 .dia::after {
