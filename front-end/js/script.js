@@ -12,6 +12,19 @@ const dias = [
 const hoje = new Date();
 const numeroDia = hoje.getDay();
 const nomeDia = dias[numeroDia];
+const professores = document.querySelectorAll(".prof");
+const sala = document.querySelectorAll(".sala");
+
+professores.forEach(prof => {
+    const nome = prof.textContent;
+    prof.textContent = formatarNome(nome);
+});
+sala.forEach(sala => {
+    const nome = sala.textContent;
+    sala.textContent = formatarNome(nome);
+});
+
+
 
 document.getElementById("dia").textContent =
     nomeDia.charAt(0).toUpperCase() + nomeDia.slice(1);
@@ -90,3 +103,19 @@ function mostrarPagina() {
 mostrarPagina();
 
 setInterval(mostrarPagina, 8000);
+
+
+function formatarNome(nome) {
+    const minusculas = ["de", "da", "do", "das", "dos", "e"];
+
+    return nome
+        .toLowerCase()
+        .split(" ")
+        .map((palavra, index) => {
+            if (index === 0 || !minusculas.includes(palavra)) {
+                return palavra.charAt(0).toUpperCase() + palavra.slice(1);
+            }
+            return palavra;
+        })
+        .join(" ");
+}
