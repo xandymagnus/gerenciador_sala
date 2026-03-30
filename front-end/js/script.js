@@ -25,6 +25,7 @@ aulas.forEach(aula => {
 document.querySelectorAll("." + nomeDia).forEach(aula => {
     aula.style.display = "block";
 });
+
 // Criando lógica para trocar Manhã -> Noite assim que for 18:00
 const horaAtual = new Date().getHours();
 
@@ -35,3 +36,57 @@ if (horaAtual >= 18) {
 } else {
     titulo.textContent = "QUADRO DE HORÁRIOS - MANHÃ";
 }
+
+// Gerenciamento de horários
+const agora = new Date();
+
+const aulasHorario = document.querySelectorAll(".aula");
+
+aulasHorario.forEach(aula => {
+
+    const horario = aula.querySelector(".horario").textContent;
+
+    const partes = horario.split(" - ");
+    const horaFinal = partes[1];
+
+    const [hora, minuto] = horaFinal.split(":");
+
+    const fimAula = new Date();
+
+    fimAula.setHours(hora);
+    fimAula.setMinutes(minuto);
+    fimAula.setSeconds(0);
+
+    if (agora > fimAula) {
+        aula.parentElement.style.display = "none";
+    }
+
+});
+
+// Rotacionando a página
+let paginaAtual = 0;
+const aulasPorPagina = 7;
+
+function mostrarPagina() {
+
+    aulas.forEach(aula => {
+        aula.style.display = "none";
+    });
+
+    const inicio = paginaAtual * aulasPorPagina;
+    const fim = inicio + aulasPorPagina;
+
+    for (let i = inicio; i < fim && i < aulas.length; i++) {
+        aulas[i].style.display = "block";
+    }
+
+    paginaAtual++;
+
+    if (inicio >= aulas.length) {
+        paginaAtual = 0;
+    }
+}
+
+mostrarPagina();
+
+setInterval(mostrarPagina, 8000);
