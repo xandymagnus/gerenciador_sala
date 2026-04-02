@@ -1,121 +1,227 @@
-// Adicionando dia da semana interativo
+// ================================
+// CONFIGURAÇÕES
+// ================================
+
+const HORAS_ANTES = 5
+const TEMPO_ROTACAO = 8000
+const TEMPO_ATUALIZACAO = 60000
+
+// ================================
+// DIA DA SEMANA
+// ================================
+
 const dias = [
-    "domingo",
-    "SEGUNDA",
-    "TERCA",
-    "QUARTA",
-    "QUINTA",
-    "SEXTA",
-    "sabado"
-];
+"DOMINGO",
+"SEGUNDA",
+"TERCA",
+"QUARTA",
+"QUINTA",
+"SEXTA",
+"SABADO"
+]
 
-const hoje = new Date();
-const numeroDia = hoje.getDay();
-const nomeDia = dias[numeroDia];
-const professores = document.querySelectorAll(".prof");
-const sala = document.querySelectorAll(".sala");
+const agora = new Date()
+const numeroDia = agora.getDay()
+const nomeDia = dias[numeroDia]
 
-professores.forEach(prof => {
-    const nome = prof.textContent;
-    prof.textContent = formatarNome(nome);
-});
-sala.forEach(sala => {
-    const nome = sala.textContent;
-    sala.textContent = formatarNome(nome);
-});
+document.getElementById("dia").textContent = nomeDia
 
+// ================================
+// TURNO
+// ================================
 
+const horaAtual = agora.getHours()
+const turnoAtual = horaAtual >= 18 ? "NOITE" : "MANHA"
 
-document.getElementById("dia").textContent =
-    nomeDia.charAt(0).toUpperCase() + nomeDia.slice(1);
+document.querySelector(".titulo").textContent =
+`QUADRO DE HORÁRIOS - ${turnoAtual}`
 
-const aulas = document.querySelectorAll("ul li");
+// ================================
+// CARREGAR JSON
+// ================================
 
-aulas.forEach(aula => {
-    aula.style.display = "none";
-});
+async function carregarAulas(){
 
-document.querySelectorAll("." + nomeDia).forEach(aula => {
-    aula.style.display = "block";
-});
+const response = await fetch("../json/aulas.json")
+const aulas = await response.json()
 
-// Criando lógica para trocar Manhã -> Noite assim que for 18:00
-const horaAtual = new Date().getHours();
+processarAulas(aulas)
 
-const titulo = document.querySelector(".titulo");
-
-if (horaAtual >= 18) {
-    titulo.textContent = "QUADRO DE HORÁRIOS - NOITE";
-} else {
-    titulo.textContent = "QUADRO DE HORÁRIOS - MANHÃ";
 }
 
-// Gerenciamento de horários
-const agora = new Date();
+carregarAulas()
 
-const aulasHorario = document.querySelectorAll(".aula");
+// ================================
+// PROCESSAR AULAS
+// ================================
 
-aulasHorario.forEach(aula => {
+function processarAulas(aulas){
 
-    const horario = aula.querySelector(".horario").textContent;
+const container = document.querySelector("ul")
 
-    const partes = horario.split(" - ");
-    const horaFinal = partes[1];
+container.innerHTML = ""
 
-    const [hora, minuto] = horaFinal.split(":");
+const aulasValidas = aulas.filter(aula => {
 
-    const fimAula = new Date();
+if(aula.dia !== nomeDia) return false
 
-    fimAula.setHours(hora);
-    fimAula.setMinutes(minuto);
-    fimAula.setSeconds(0);
+const inicio = converterHorario(aula.inicio)
+const fim = converterHorario(aula.fim)
 
-    if (agora > fimAula) {
-        aula.parentElement.style.display = "none";
-    }
+const cincoHorasAntes = new Date(inicio)
+cincoHorasAntes.setHours(inicio.getHours() - HORAS_ANTES)
 
-});
+// turno
 
-// Rotacionando a página
-let paginaAtual = 0;
-const aulasPorPagina = 7;
+if(turnoAtual === "MANHA" && inicio.getHours() >= 18) return false
+if(turnoAtual === "NOITE" && inicio.getHours() < 18) return false
 
-function mostrarPagina() {
+// aula já passou
 
-    aulas.forEach(aula => {
-        aula.style.display = "none";
-    });
+if(agora > fim) return false
 
-    const inicio = paginaAtual * aulasPorPagina;
-    const fim = inicio + aulasPorPagina;
+// aula ainda muito longe
 
-    for (let i = inicio; i < fim && i < aulas.length; i++) {
-        aulas[i].style.display = "block";
-    }
+if(agora < cincoHorasAntes) return false
 
-    paginaAtual++;
+return true
 
-    if (inicio >= aulas.length) {
-        paginaAtual = 0;
-    }
+})
+
+aulasValidas.forEach(aula => {
+
+const li = document.createElement("li")
+
+li.innerHTML = `
+<div class="aula">
+
+<h2 class="curso">${formatarNome(aula.curso)}</h2>
+
+<h2 class="disciplina">${formatarNome(aula.disciplina)}</h2>
+
+<h2 class="prof">${formatarNome(aula.professor)}</h2>
+
+<h2 class="sala">${formatarNome(aula.sala)}</h2>
+
+<h2 class="horario">${aula.inicio} - ${aula.fim}</h2>
+
+</div>
+`
+
+container.appendChild(li)
+
+})
+
+setTimeout(() => {
+    iniciarRotacao()
+}, 50)
+
 }
 
-mostrarPagina();
+// ================================
+// CONVERTER HORÁRIO
+// ================================
 
-setInterval(mostrarPagina, 8000);
+function converterHorario(horario){
 
+const [hora, minuto] = horario.split(":")
 
-function formatarNome(nome) {
-    const minusculas = ["de", "da", "do", "das", "dos", "e"];
+const data = new Date()
 
-    return nome
-        .toLowerCase()
-        .split(" ")
-        .map((palavra, index) => {
-            if (index === 0 || !minusculas.includes(palavra)) {
-                return palavra.charAt(0).toUpperCase() + palavra.slice(1);
-            }
-            return palavra;
-        })
-        .join(" ");
+data.setHours(hora)
+data.setMinutes(minuto)
+data.setSeconds(0)
+
+return data
+
 }
+
+// ================================
+// ROTAÇÃO DE TELÃO
+// ================================
+
+let paginaAtual = 0
+const aulasPorPagina = 7
+
+function iniciarRotacao(){
+
+const aulas = document.querySelectorAll("ul li")
+
+function mostrarPagina(){
+
+aulas.forEach(a => a.style.display = "none")
+
+const inicio = paginaAtual * aulasPorPagina
+const fim = inicio + aulasPorPagina
+
+for(let i = inicio; i < fim && i < aulas.length; i++){
+    aulas[i].style.display = "block"
+}
+
+paginaAtual++
+
+if(paginaAtual * aulasPorPagina >= aulas.length){
+    paginaAtual = 0
+}
+
+}
+
+mostrarPagina()
+
+setInterval(mostrarPagina, 8000)
+
+}
+
+// ================================
+// CALCULAR QUANTAS CABEM NA TELA
+// ================================
+
+function calcularAulasPorPagina(){
+
+const ul = document.querySelector("ul")
+const aula = document.querySelector("ul li")
+
+if(!aula) return 6
+
+const alturaUl = ul.offsetHeight
+const alturaAula = aula.offsetHeight
+
+return Math.floor(alturaUl / alturaAula)
+
+}
+
+// ================================
+// FORMATAR NOMES
+// ================================
+
+function formatarNome(nome){
+
+const minusculas = ["de","da","do","das","dos","e"]
+
+return nome
+.toLowerCase()
+.split(" ")
+.map((palavra,index)=>{
+
+if(index === 0 || !minusculas.includes(palavra)){
+
+return palavra.charAt(0).toUpperCase() + palavra.slice(1)
+
+}
+
+return palavra
+
+})
+.join(" ")
+
+}
+
+// ================================
+// ATUALIZAÇÃO AUTOMÁTICA
+// ================================
+
+setInterval(()=>{
+
+location.reload()
+
+},TEMPO_ATUALIZACAO)
