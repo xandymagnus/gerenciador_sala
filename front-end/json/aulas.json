@@ -1,1958 +1,2504 @@
-{
-  "segunda": [
-    {
-      "curso": "Administração",
-      "disciplina": "Desenvolvimento de Pessoas",
-      "professor": "Edmundo de Lima Lopes",
-      "sala": "A - 303",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Modelos de Gestão",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "A - 305",
-      "horario": "19:00 - 21:40"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Algoritmos e Tecnicas de Programação",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Engenharia de Software",
-      "professor": "Antonio Cardoso",
-      "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Metodos Numericos Aplicados",
-      "professor": "Humberto Reis",
-      "sala": "A - 402",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Sistemas Operacionais",
-      "professor": "Sergio Dias",
-      "sala": "D - 409",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Algoritmo e Estrutura de Dados",
-      "professor": "Claudio Filgueiras",
-      "sala": "D - 408",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Linguagem de Programação",
-      "professor": "Lucas Castro Faria",
-      "sala": "LAB 1 de Informática",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Programação Orientada A Objetos",
-      "professor": "Marcio Moraes",
-      "sala": "A - 203",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematológico",
-      "professor": "Jessica Freitas",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Digestorio, Endocrino e Renal",
-      "professor": "Carlos Gustavo Garcia",
-      "sala": "D - 410",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Ciência da Computação",
-      "disciplina": "Algoritmos e Técnicas de Programação",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Economia para Negocios",
-      "professor": "Cheyenne Fernandes Duarte",
-      "sala": "A - 202",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Desenho Técnico de Moda",
-      "professor": "Taís Ventura",
-      "sala": "Atelier de Desenho",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Modelagem e Tecnologia",
-      "professor": "Graça Pereira",
-      "sala": "LAB de Modelagem",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Laboratorio de Confeccao",
-      "professor": "Graça Pereira",
-      "sala": "Laboratorio de Confeccao - 2º Andar - Bloco",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Administrativo - Administração Pública",
-      "professor": "Luis Eduardo dos Santos de Jesus",
-      "sala": "A - 303",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Processual do Trabalho",
-      "professor": "Andreae Silva de Souza",
-      "sala": "D - 504",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Modelo Multiportas e Meios Integrados de Resolução de Conflitos",
-      "professor": "Wagner Luiz Guerra da Fonseca",
-      "sala": "D - 406",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Teoria Geral do Direito Constitucional",
-      "professor": "Jalmir Cabral Junior",
-      "sala": "A - 401",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Teoria Geral do Processo",
-      "professor": "Bruno de Castro Costa Chaves",
-      "sala": "C - 308",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito do Trabalho",
-      "professor": "Andrea E Silva de Souza / Wagner Luizgerra da Fonseca",
-      "sala": "A - 403",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Empresarial e Societario",
-      "professor": "Rebeca Leslima Eckstein",
-      "sala": "D - 405",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Teoria Geral do Processo",
-      "professor": "Wagner Luizgerra da Fonseca",
-      "sala": "A - 203",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Educação Física",
-      "disciplina": "Aprendizagem Motora e Psicomotoridade",
-      "professor": "Amanda Gomes",
-      "sala": "D - 301",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Digestorio, Endocrino e Renal",
-      "professor": "Carlos Gustavo Garcia",
-      "sala": "D - 410",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Enfermagem na Saude do Adulto",
-      "professor": "Gleiciana Sant Anna",
-      "sala": "D - 411",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Civil",
-      "disciplina": "Algoritmos e Lógica de Programação",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia de Produção",
-      "disciplina": "Algoritmos e Lógica de Programação",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Mecanica",
-      "disciplina": "Algoritmos e Lógica de Programação",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Farmácia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Imune e Hematologico",
-      "professor": "Jessica Freitas",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Imune e Hematologico",
-      "professor": "Jessica Freitas",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Fisioterapia na Saude da Criança e do Adolescente",
-      "professor": "Fernanda Brum",
-      "sala": "D - 502",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Fisioterapia na Saude do Neonato",
-      "professor": "Fernanda Brum",
-      "sala": "D - 102",
-      "horario": "20:40 - 22:30"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Digestorio, Endocrino e Renal",
-      "professor": "Carlos Gustavo",
-      "sala": "Auditorio 7º Andar - Bloco D",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Projeto Integrado I",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "A - 305",
-      "horario": "18:00 - 19:00"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Modelos de Gestão",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "A - 305",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Bacteriologia e Imunologia Aplicadas A Medicina Veterinária",
-      "professor": "Adolfo Barreto Santos",
-      "sala": "D - 501",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Técnica Cirurgica e Anestesiologia Aplicadas A Medicina Veterinária",
-      "professor": "Janh Carlo Amorim",
-      "sala": "Sala de Transmissão",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Nutrição Animal",
-      "professor": "Cassia Regina Alves Pereira",
-      "sala": "D - 404",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Helmintologia Veterinaria",
-      "professor": "Namir Santos Moreira",
-      "sala": "D - 404",
-      "horario": "19:00 - 21:40"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Medicina Veterinaria Preventiva e Defesa Sanitaria Animal",
-      "professor": "Gisa Regina Alves Pereira",
-      "sala": "J - 101",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia na Saúde Coletiva",
-      "professor": "José Muniz",
-      "sala": "D - 402",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pré - Clínica - Propedêutica e Imaginologia",
-      "professor": "José Maurício",
-      "sala": "C - 302",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pré - Clínica - Reabilitação Dentária Unitária e Parcial Fixas",
-      "professor": "William Ribeiro",
-      "sala": "D - 505",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica Integrada de Reabilitação Oral I",
-      "professor": "Bruna Soares",
-      "sala": "Clínica de Odontologia",
-      "horario": "09:00 - 11:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica de Propedêutica e Biópsia Bucal",
-      "professor": "Lilian Machado / José Maurício",
-      "sala": "Policlínica de Odontologia",
-      "horario": "18:00 - 20:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica Integrada de Assistencia Odontológica IV",
-      "professor": "Paula Paes",
-      "sala": "Policlínica de Odontologia",
-      "horario": "18:00 - 20:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Cien. Morfofuncionais do Ecossistema Bucal",
-      "professor": "Clayton Sacramento",
-      "sala": "D - 201",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pre - Clínica - Agravos A Polpa Dentária",
-      "professor": "William Ribeiro",
-      "sala": "D - 702",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Sistemas de Informação",
-      "disciplina": "Algoritmos e Técnicas de Programação",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Aprendizagem Motora e Psicomotricidade",
-      "professor": "Amanda Gomes",
-      "sala": "D - 301",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Digestório, Endocrino e Renal",
-      "professor": "Carlos Gustavo",
-      "sala": "Auditorio 7º Andar Bloco D",
-      "horario": "19:00 - 21:50"
-    }
-  ],
-  "terca": [
-    {
-      "curso": "Administração",
-      "disciplina": "Economia para Negocios",
-      "professor": "Edmundo de Lima Lopes Junior",
-      "sala": "D - 702",
-      "horario": "08:20 - 10:40"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Gestão de Projetos",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 104",
-      "horario": "08:20 - 10:40"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Legislação Empresarial Aplicada",
-      "professor": "André Alencar",
-      "sala": "Térreo - 1",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Pesquisa Operacional",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "A - 304",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Programacao Orientada A Objetos II",
-      "professor": "Pedro Henrique",
-      "sala": "LAB Informatica 4 - 1º Andar - Bloco D",
-      "horario": "18:30 - 20:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Algoritmos e Estrutura de Dados",
-      "professor": "Antonio Cardoso",
-      "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Modelagem de Dados",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Desenvolvimento de Chatbot",
-      "professor": "Pedro Henrique",
-      "sala": "LAB Informatica 4 - 1º Andar - Bloco D",
-      "horario": "20:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Computação Gráfica e Processamento de Imagens",
-      "professor": "Claudio Filgueiras",
-      "sala": "LAB 10 de Informática",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Desenvolvimento em Javascript",
-      "professor": "Marcio Moraes",
-      "sala": "D - 408",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Arquitetura e Urbanismo",
-      "disciplina": "Informática Aplicada A Arquitetura - Projetos Ortogonais",
-      "professor": "Rosa Maria",
-      "sala": "LAB de Informatica 1 - 1º Andar - Bloco D",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "A - 305",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Analises Fisico - Quimicas e Microbiologicas de Alimentos",
-      "professor": "Renata Mourão da Silva",
-      "sala": "A - 402",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematologico",
-      "professor": "Estefania Anahi Aguilera",
-      "sala": "D - 411",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Ciência da Computação",
-      "disciplina": "Modelagem de Dados",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Economia para Negocios",
-      "professor": "Edmundo de Lima Lopes Junior",
-      "sala": "D - 702",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Legislação Empresarial Aplicada",
-      "professor": "André Alencar",
-      "sala": "Térreo - 1",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Desenho de Moda",
-      "professor": "Rita Quintanilha",
-      "sala": "Atelier de Desenho - Bloco J - 2º Andar / 410",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Processual Civil - Conhecimento e Processo Eletrônico",
-      "professor": "Luis Eduardo dos Santos de Jesus",
-      "sala": "D - 405",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Processual Penal - Ação Penal e Procedimentos",
-      "professor": "Jair do Nascimento Barcellos",
-      "sala": "D - 504",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Fundamentos Históricos e Introdução ao Estudo do Direito",
-      "professor": "Jalmir Cabral Junior",
-      "sala": "A - 401",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Titulos de Credito e Recuperação e Falência de Empresas",
-      "professor": "Rebeca Lese Lima Eckstein",
-      "sala": "D - 406",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Civil - Familia",
-      "professor": "Rebeca Leslima Eckstein",
-      "sala": "A - 401",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Constitucional",
-      "professor": "Jair do Nascimento Barcellos",
-      "sala": "D - 408",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Modelo Multiportas e Meios Integradores de Resolução de Conflitos",
-      "professor": "Wagner Luizgerra da Fonseca",
-      "sala": "A - 403",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "A - 305",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Enfermagem na Saude da Criança e do Adolescente",
-      "professor": "Fabiana Nunes de Oliveira",
-      "sala": "D - 409",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Enfermagem na Saude da Mulher",
-      "professor": "Giselda Lopes de Souza",
-      "sala": "J - 102",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Fundamentos Semiologicos de Enfermagem",
-      "professor": "Caroline da Silva França",
-      "sala": "D - 104",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Fundamentos Tecnicos de Enfermagem",
-      "professor": "Gisele de Mattos Araujo",
-      "sala": "D - 103",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Engenharia Civil",
-      "disciplina": "Cálculo Diferencial e Integral",
-      "professor": "Humberto Reis",
-      "sala": "C - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia de Produção",
-      "disciplina": "Cálculo Diferencial e Integral",
-      "professor": "Humberto Reis",
-      "sala": "C - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Eletrica",
-      "disciplina": "Cálculo Diferencial e Integral",
-      "professor": "Humberto Reis",
-      "sala": "C - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Mecanica",
-      "disciplina": "Cálculo Diferencial e Integral",
-      "professor": "Humberto Reis",
-      "sala": "C - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Farmácia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "A - 305",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Farmácia",
-      "disciplina": "Analises Fisico - Quimicas e Microbiologicas de Alimentos",
-      "professor": "Renata Mourão",
-      "sala": "A - 402",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Fisioteraoia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Fisioterapia na Saude do Atleta",
-      "professor": "Thiago Cavalcanti",
-      "sala": "C - 308",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Fundamentos da Fisioterapia na Atencao Primaria",
-      "professor": "Andrea",
-      "sala": "A - 404",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Principios de Audiologia",
-      "professor": "Ester",
-      "sala": "D - 203",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Gestão de Projetos",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 104",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Projeto Integrado II",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 104",
-      "horario": "11:00 - 12:40"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Legislação Empresarial Aplicada",
-      "professor": "André da Silva Alencar",
-      "sala": "Térreo - 1",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Agrostologia e Forragicultura",
-      "professor": "Rita de Cassia Martins Aurnheimer",
-      "sala": "D - 502",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Ciên. Morfofuncionais Vet. Aplic. ao Sist. Tegumentar, Esquel. e Locomotor",
-      "professor": "Mauricio Davidovich de Barros",
-      "sala": "D - 402",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Est. Cur. Prat. Hosp. em Clínica Medica de Pequenos Animais",
-      "professor": "Debora Silva Gondim Mannarino",
-      "sala": "D - 404",
-      "horario": "08:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Semiologia e Patologia Clínica Aplicadas A Medicina Veterinária",
-      "professor": "Mauricio Davidovich de Barros",
-      "sala": "D - 402",
-      "horario": "11:20 - 13:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Cien. Morfofuncionais Vet. Aplic. ao Sist. Tegumentar, Esquel. e Locomotor",
-      "professor": "Mauricio Davidovich Barros",
-      "sala": "J - 101",
-      "horario": "19:00 - 21:40"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Patologia Veterinaria Geral",
-      "professor": "Aline Brasil",
-      "sala": "D - 701",
-      "horario": "19:00 - 21:40"
-    },
-    {
-      "curso": "Nutricao",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematologico",
-      "professor": "Estefania Anahi Aguilera",
-      "sala": "D - 411",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Cien. Morfofuncionais do Ecossistema Bucal",
-      "professor": "Clayton Sacramento",
-      "sala": "D - 407",
-      "horario": "08:00 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica Integrada de Reabilitação Oral II",
-      "professor": "Bruna Soares",
-      "sala": "Clínica de Odontologia",
-      "horario": "09:00 - 11:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Ciências Patológicas Aplicadas A Odontologia",
-      "professor": "Ingrid Braecher",
-      "sala": "D - 603",
-      "horario": "18:00 - 22:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pre - Clínica - Propedêutica e Imaginologia",
-      "professor": "José Maurício Veloso",
-      "sala": "D - 401",
-      "horario": "19:00 - 21:40"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Psicologia Social - Noções Introdutórias",
-      "professor": "Luiz Alberto Mariano da Cruz",
-      "sala": "D - 401",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Psicologia e Políticas Públicas",
-      "professor": "Luiz Alberto Mariano da Cruz",
-      "sala": "D - 401",
-      "horario": "10:00 - 11:10"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Psicologia, Ciência e Profissão",
-      "professor": "Jorge Oswaldo Alves Vieira Martins",
-      "sala": "D - 405",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Sistemas de Informação",
-      "disciplina": "Modelagem de Dados",
-      "professor": "Marcio Moraes",
-      "sala": "D - 302",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematológico",
-      "professor": "Estefania Anahi Aguilera",
-      "sala": "D - 411",
-      "horario": "19:00 - 21:30"
-    }
-  ],
-  "quarta": [
-    {
-      "curso": "Administração",
-      "disciplina": "Contabilidade Introdutoria",
-      "professor": "Edmundo de Lima Lopes Junior",
-      "sala": "01 Térreo",
-      "horario": "08:20 - 10:40"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Capital de Giro e Analise Financeira",
-      "professor": "Edmundo de Lima Lopes",
-      "sala": "Térreo - 1",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Desenvolvimento com Low Code",
-      "professor": "Antonio Cardoso",
-      "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
-      "horario": "18:30 - 20:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Linguagem de Programacao",
-      "professor": "Lucas Castro",
-      "sala": "LAB 01 Informatica - 1º Andar - Bloco D",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Compiladores",
-      "professor": "Antonio Cardoso",
-      "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
-      "horario": "20:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Algoritmos e Estrutura de Dados Avançado",
-      "professor": "Claudio Filgueiras",
-      "sala": "D - 404",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Análise e Modelagem de Sistemas",
-      "professor": "Marcio Moraes",
-      "sala": "D - 405",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Metodos Matematicos",
-      "professor": "Humberto Reis",
-      "sala": "D - 406",
-      "horario": "10:00 - 12:00"
-    },
-    {
-      "curso": "Arquitetura e Urbanismo",
-      "disciplina": "Maquetes",
-      "professor": "Fernanda",
-      "sala": "Sala de Desenho - 203",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
-      "professor": "Heloisa Osanai",
-      "sala": "D - 402",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Genetica Medica",
-      "professor": "Jessica Freitas",
-      "sala": "A - 304",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Ciência da Computação",
-      "disciplina": "Algoritmos e Técnicas de Programação",
-      "professor": "Germano Chacon",
-      "sala": "D - 401",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Contabilidade Introdutoria",
-      "professor": "Edmundo de Lima Lopes Junior",
-      "sala": "01 Térreo",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Economia para Negócios",
-      "professor": "Cheyenne Fernandes Duarte",
-      "sala": "A - 202",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Comunicação de Moda",
-      "professor": "Will Araújo",
-      "sala": "Auditório",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Desenho Técnico de Moda",
-      "professor": "Tais Ventura",
-      "sala": "LAB de Informatica 7 - 1º Andar - Bloco A",
-      "horario": "19:00 - 21:00"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Processual Civil - Execução e Cumprimento de Sentença",
-      "professor": "Luis Eduardo dos Santos de Jesus",
-      "sala": "A - 303",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Teoria Jurídica do Direito Penal",
-      "professor": "Anderson Yuji Ito",
-      "sala": "A - 403",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Administrativo - Regime Juridico Administrativo",
-      "professor": "Luis Eduardo dos Santos de Jesus",
-      "sala": "D - 406",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Civil - Obrigações",
-      "professor": "Wagner Luizgerra da Fonseca",
-      "sala": "A - 303",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Processual do Trabalho",
-      "professor": "Andrea E Silva de Souza / Wagner Luizgerra da Fonseca",
-      "sala": "D - 408",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Educação Física",
-      "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
-      "professor": "Heloisa Osanai",
-      "sala": "D - 402",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
-      "professor": "Maxwell Oliveira",
-      "sala": "D - 505",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Enfermagem na Saude da Criança e do Adolescente",
-      "professor": "Fabiana Nunes de Oliveira",
-      "sala": "D - 406",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Enfermagem na Saude da Mulher",
-      "professor": "Giselda Lopes de Souza",
-      "sala": "A - 302",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Fundamentos Semiologicos de Enfermagem",
-      "professor": "Caroline da Silva França",
-      "sala": "D - 101",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Fundamentos Tecnicos de Enfermagem",
-      "professor": "Gisele de Mattos Araujo",
-      "sala": "D - 102",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Engenharia Civil",
-      "disciplina": "Física Geral e Experimental Mecânica",
-      "professor": "Laurenio Lopes",
-      "sala": "D - 401",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Eletrica",
-      "disciplina": "Física Geral e Experimental Mecânica",
-      "professor": "Laurenio Lopes",
-      "sala": "D - 401",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Farmácia",
-      "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
-      "professor": "Heloisa Osanai",
-      "sala": "D - 402",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
-      "professor": "Maxwell Oliveira",
-      "sala": "D - 505",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
-      "professor": "Joedson da Silva",
-      "sala": "D - 411",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Diag. Cinetico - Funcional e Imaginologia - Membros Superiores, Cabeça e Tronco",
-      "professor": "Thiago Cavalcanti",
-      "sala": "D - 409",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
-      "professor": "Maxwell Oliveira",
-      "sala": "D - 505",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
-      "professor": "Joedson da Silva",
-      "sala": "D - 411",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Gestão de Pessoas",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 701",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Ciên. Morfofuncionais Veterinária Aplicada ao Sistema Genito Urinario",
-      "professor": "Ana Cristina Nery de Castro",
-      "sala": "D - 702",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Ciên. Morfofuncionais Veterinária Aplicada ao Sistema Nervoso e Endocrino",
-      "professor": "Ana Cristina Nery de Castro",
-      "sala": "D - 702",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Clínica Cirurgica Veterinária",
-      "professor": "Janh Carlo Amorim",
-      "sala": "Transmissão",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Est. Cur. Prat. Hosp. em Anestesiologia, Clínica Cirurgica e Obstetricia",
-      "professor": "Aluizio Nunes dos Santos",
-      "sala": "A - 201",
-      "horario": "08:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Fisiopatologia da Reprodução Aplicada Medicina Veterinária",
-      "professor": "Alline Brasil",
-      "sala": "D - 104",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Processos Patologicos Aplicados A Medicina Veterinária",
-      "professor": "Flavia Liparisi",
-      "sala": "A - 202",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Virologia e Micologia Aplicadas A Medicina Veterinária",
-      "professor": "Adolfo Barreto Santos",
-      "sala": "A - 304",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Biotecnologia e Obstetricia Aplicadas A Medicina Veterinária",
-      "professor": "Alline Brasil",
-      "sala": "Sala de Transmissão",
-      "horario": "10:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Inspeção de Produtos de Origem Animal",
-      "professor": "Priscila Faber",
-      "sala": "D - 502",
-      "horario": "10:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Ciên. Morfofuncionais Veterinária Aplicada ao Sistema Genito Urinario",
-      "professor": "Ana Cristina Nery de Castro",
-      "sala": "D - 702",
-      "horario": "11:20 - 13:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Cien. Morfofuncionais Veterinaria Aplicada ao Sistema Genito Urinario",
-      "professor": "Ana Cristina Nery de Castro",
-      "sala": "D - 701",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Semiologia e Patologia Clinica Aplicadas À Medicina Veterinaria",
-      "professor": "Mauricio Davidovich Barros",
-      "sala": "D - 702",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Nutricao",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
-      "professor": "Joedson da Silva",
-      "sala": "D - 411",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Cien. Morfofuncionais Aplicadas A Odontologia",
-      "professor": "José Maurício",
-      "sala": "D - 301",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Ciências Patológicas Aplicadas A Odontologia",
-      "professor": "José Maurício",
-      "sala": "D - 301",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pré - Clínica - Agravos ao Periodonto",
-      "professor": "Maria Amélia Pazos",
-      "sala": "D - 103",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica Integrada de Assistência Odontológica IV",
-      "professor": "Paula Paes / William Ribeiro",
-      "sala": "Clínica de Odontologia",
-      "horario": "09:00 - 11:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clinica de Propedêutica Cirurgica Odontológica",
-      "professor": "Clayton Sacramento / William Ribeiro",
-      "sala": "Policlínica de Odontologia",
-      "horario": "18:00 - 20:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pre - Clínica - Agravos ao Esmalte e Dentina",
-      "professor": "Paula Paes",
-      "sala": "D - 504",
-      "horario": "18:00 - 22:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Fundamentos para Atencao A Criança I",
-      "professor": "Vanessa Souza",
-      "sala": "C - 308",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Legal e Deontologia",
-      "professor": "Jalmir Cabral Jr",
-      "sala": "A - 203",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Processos Psicologicos Básicos",
-      "professor": "Carlos Gustavo Garcia",
-      "sala": "J - 205",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Cién. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
-      "professor": "Maxwell Oliveira",
-      "sala": "D - 505",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
-      "professor": "Joedson da Silva",
-      "sala": "D - 410",
-      "horario": "19:00 - 20:40"
-    }
-  ],
-  "quinta": [
-    {
-      "curso": "Administração",
-      "disciplina": "Metodos Quantitativos",
-      "professor": "Lucas Castro Faria",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Legislação Empresarial Aplicada",
-      "professor": "André da Silva Alencar",
-      "sala": "D - 501",
-      "horario": "08 - 20 - 10:40"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Simulação Empresarial",
-      "professor": "Cheyenne Fernandes Duarte",
-      "sala": "A - 404",
-      "horario": "18:00 - 20:40"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Analise de Investimentos e Fontes de Financiamento",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 201",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Contabilidade Introdutória",
-      "professor": "Edmundo de Lima Lopes",
-      "sala": "C - 308",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Administração",
-      "disciplina": "Diagnóstico e Intervenção Empresarial",
-      "professor": "Cheyenne Fernandes Duarte",
-      "sala": "A - 404",
-      "horario": "21:00 - 22:30"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Analise e Modelagem de Sistemas",
-      "professor": "Lucas Castro",
-      "sala": "LAB 01 Informatica - 1º Andar - Bloco D",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Lógica e Matemática Computacional",
-      "professor": "Daniel Ricardo",
-      "sala": "D - 208",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Programacao Orientada A Objetos",
-      "professor": "Pedro Henrique",
-      "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Física Geral",
-      "professor": "Humberto Reis",
-      "sala": "D - 401",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Sistemas Digitais e Microprocessadores",
-      "professor": "Sergio Dias",
-      "sala": "LAB 9 de Informática",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Arquiteturas Paralelas e Distribuídas",
-      "professor": "Sergio Dias",
-      "sala": "LAB 9 de Informática",
-      "horario": "10:00 - 12:00"
-    },
-    {
-      "curso": "Arquitetura e Urbanismo",
-      "disciplina": "Fundamentos de Topografia",
-      "professor": "Michele Pereira",
-      "sala": "A - 201",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Praticas em Saúde",
-      "professor": "Caroline da Silva França",
-      "sala": "D - 502",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Ciência da Computação",
-      "disciplina": "Lógica e Matemática Computacional",
-      "professor": "Daniel Ricardo",
-      "sala": "D - 208",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Metodos Quatitativos",
-      "professor": "Lucas Castro Faria",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Analise de Investimentos e Fontes de Financiamento",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 201",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Contabilidade Introdutória",
-      "professor": "Edmundo de Lima Lopes",
-      "sala": "C - 308",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Informática Aplicada A Moda",
-      "professor": "Taís Ventura",
-      "sala": "LAB 1 de Informática",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Laboratório de Confecção",
-      "professor": "Graça Pereira",
-      "sala": "Confecção",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Design de Moda",
-      "disciplina": "Modelagem e Tecnologia",
-      "professor": "Graça Pereira",
-      "sala": "LAB de Modelagem - 2º Andar - Bloco J",
-      "horario": "19:00 - 21:00"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Cibernetico",
-      "professor": "Luis Eduardo dos Santos de Jesus",
-      "sala": "D - 406",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Constitucional",
-      "professor": "Jalmir Cabral Junior",
-      "sala": "D - 504",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Previdenciario",
-      "professor": "Jair do Nascimento Barcellos",
-      "sala": "D - 502",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Civil - Contratos",
-      "professor": "Wagner Luizgerra da Fonseca",
-      "sala": "A - 403",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Internacional",
-      "professor": "Jalmir Cabral Junior",
-      "sala": "D - 203",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Processual Civil - Execução e Cumprimento de Sentença",
-      "professor": "Luis Eduardo dos Santos de Jesus",
-      "sala": "D - 408",
-      "horario": "19:00 - 21:30"
-    },
-    {
-      "curso": "Educação Física",
-      "disciplina": "Fundamentos dos Movimentos Básicos",
-      "professor": "Ari Cantuária",
-      "sala": "D - 505",
-      "horario": "10:00 - 12:30"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratório",
-      "professor": "Carlos Gustavo",
-      "sala": "D - 501",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Enfermagem na Saude do Adulto",
-      "professor": "Gleiciana Sant Anna",
-      "sala": "D - 407",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Seminario Integrador na Saude da Mulher",
-      "professor": "Pedro Paulo Correa Santana",
-      "sala": "A - 203",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Civil",
-      "disciplina": "Desenho Técnico Projetivo",
-      "professor": "Rosa Maria",
-      "sala": "D - 504",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia de Produção",
-      "disciplina": "Desenho Técnico Projetivo",
-      "professor": "Rosa Maria",
-      "sala": "D - 504",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Eletrica",
-      "disciplina": "Desenho Técnico Projetivo",
-      "professor": "Rosa Maria",
-      "sala": "D - 504",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Engenharia Mecanica",
-      "disciplina": "Desenho Técnico Projetivo",
-      "professor": "Rosa Maria",
-      "sala": "D - 504",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Farmácia",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
-      "professor": "Maxwell Oliveira",
-      "sala": "J - 205",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Cien. Morfofuncionais do Aparelho Locomotor - Membros Super., Cabeça e Tronco",
-      "professor": "Joedson da Silva",
-      "sala": "D - 102",
-      "horario": "19:00 - 21:40"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Ciên. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratório",
-      "professor": "Carlos Gustavo",
-      "sala": "D - 501",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
-      "professor": "Maxwell Oliveira",
-      "sala": "J - 205",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Ciên. Morfofuncionais Vet. Aplic. ao Sist. Digestorio e Glandulas Anexas",
-      "professor": "Mauricio Davidovich de Barros",
-      "sala": "A - 402",
-      "horario": "08:20 - 11:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Clínica Medica de Pequenos Animais",
-      "professor": "Debora Silva Gondim Mannarino",
-      "sala": "D - 702",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Enfermidades Parasitarias Aplicadas A Medicina Veterinária",
-      "professor": "Namir Santos Moreira",
-      "sala": "D - 104",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Est. Cur. Prat. Hosp. em Clínica Medica de Grandes Animais, Lab. e Saúde Pública",
-      "professor": "Janaína Godinho Louzado",
-      "sala": "A - 302",
-      "horario": "08:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Farmacologia e Toxicologia Aplicadas A Medicina Veterinária",
-      "professor": "Aluizio Nunes dos Santos",
-      "sala": "A - 301",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Anestesiologia Veterinária Aplicada",
-      "professor": "Aluizio Nunes dos Santos",
-      "sala": "A - 301",
-      "horario": "10:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Protozoologia e Ectoparasitologia Veterinária",
-      "professor": "Namir Santos Moreira",
-      "sala": "D - 104",
-      "horario": "11:20 - 13:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Enfermidades Parasitarias Aplicadas A Medicina Veterinaria",
-      "professor": "Namir Santos Moreira",
-      "sala": "J - 101",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Nutricao",
-      "disciplina": "Introducao A Biologia Celular e do Desenvolvimento",
-      "professor": "Estefania Anahi",
-      "sala": "D - 501",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Ciências Moleculares e Celulares",
-      "professor": "Estefania Anahi",
-      "sala": "D - 301",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pré - Clínica - Agravos A Polpa Dentária",
-      "professor": "William Ribeiro",
-      "sala": "D - 101",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica de Propedêutica Cirúrgica Odontológica",
-      "professor": "Clayton Sacramento / Paula Paes",
-      "sala": "Clínica de Odontologia",
-      "horario": "09:00 - 11:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica Integrada de Atenção A Criança II",
-      "professor": "Vanessa Souza / Fernanda Mafei",
-      "sala": "Clínica de Odontologia",
-      "horario": "09:00 - 11:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica Integrada de Assistencia Odontológica I",
-      "professor": "Clayton Sacramento / Vanessa Souza",
-      "sala": "Policlínica de Odontologia",
-      "horario": "18:00 - 20:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pre - Clínica - Reabilitação Dentária Unitária e Parcial Fixas",
-      "professor": "William Ribeiro",
-      "sala": "Auditorio - 7º Andar - Bloco D",
-      "horario": "18:00 - 20:40"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Cien. Morfofuncionais Aplicadas A Odontologia",
-      "professor": "Jose Maurício Veloso",
-      "sala": "D - 702",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Desenvolvimento Humano I",
-      "professor": "Berta Sheila de Souza Ribeiro",
-      "sala": "D - 407",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Analise Experimental do Comportamento",
-      "professor": "Julio Cesar",
-      "sala": "A - 305",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Sistemas de Informação",
-      "disciplina": "Lógica e Matemática Computacional",
-      "professor": "Daniel Ricardo",
-      "sala": "D - 208",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratório",
-      "professor": "Carlos Gustavo",
-      "sala": "D - 501",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Protese e Ortese",
-      "professor": "Ari Cantuaria",
-      "sala": "D - 505",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
-      "professor": "Estefania Anahi Aguilera",
-      "sala": "D - 501",
-      "horario": "19:00 - 20:40"
-    }
-  ],
-  "sexta": [
-    {
-      "curso": "Administração",
-      "disciplina": "Mercado de Capitais",
-      "professor": "Edmundo de Lima Lopes",
-      "sala": "D - 409",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Arquitetura e Organização de Computadores",
-      "professor": "Sergio Dias",
-      "sala": "LAB 9 de Informática",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Computacao Grafica e Processamento de Imagens",
-      "professor": "Caio Richter",
-      "sala": "LAB 10 Informatica - Bloco C",
-      "horario": "18:30 - 20:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Metodos Matematicos",
-      "professor": "Lucas Castro",
-      "sala": "D - 406",
-      "horario": "18:30 - 20:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Sistemas Distribuidos",
-      "professor": "Sergio Dias",
-      "sala": "LAB 04 Informatica - 1º Andar - Bloco C",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Engenharia de Software",
-      "professor": "Lucas Castro",
-      "sala": "D - 406",
-      "horario": "20:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Projeto de Software",
-      "professor": "Caio Richter",
-      "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
-      "horario": "20:00 - 21:50"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Compiladores",
-      "professor": "Claudio Filgueiras",
-      "sala": "D - 302",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
-      "disciplina": "Modelagem de Dados",
-      "professor": "Marcio Moraes",
-      "sala": "D - 308",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Hematologia",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "D - 101",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Microbiologia Basica",
-      "professor": "Caroline da Silva França",
-      "sala": "A - 305",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Biomedicina",
-      "disciplina": "Patologia Geral",
-      "professor": "Fernanda Cavalcanti",
-      "sala": "D - 402",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Ciência da Computação",
-      "disciplina": "Lógica e Matemática Computacional",
-      "professor": "Daniel Ricardo",
-      "sala": "D - 401",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Teoria da Contabilidade",
-      "professor": "Edmundo de Lima Lopes Junior",
-      "sala": "D - 701",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Ciências Contábeis",
-      "disciplina": "Métodos Quantitativos",
-      "professor": "Silvio Franklin",
-      "sala": "D - 502",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Penal - dos Crimes em Especie",
-      "professor": "Anderson Yuji Ito",
-      "sala": "D - 407",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Coletivo do Trabalho e Tutelas Coletivas",
-      "professor": "Andrea E Silva de Souza",
-      "sala": "D - 407",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Penal - Teoria das Penas e Execução Penal",
-      "professor": "Anderson Yuji Ito",
-      "sala": "A - 403",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Direito",
-      "disciplina": "Direito Previdenciario",
-      "professor": "Jair do Nascimento Barcellos",
-      "sala": "A - 203",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Educação Física",
-      "disciplina": "Suporte Básico de Vida e Primeiros Socorros",
-      "professor": "Gisele de Mattos Araujo",
-      "sala": "D - 505",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Farmacologia dos Sistemas",
-      "professor": "Gabriel Correa de Farias",
-      "sala": "D - 402",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Farmacologia dos Sistemas",
-      "professor": "Renata Mourão",
-      "sala": "D - 204",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Enfermagem",
-      "disciplina": "Processo de Cuidar em Enfermagem",
-      "professor": "Vagner Marins Barcellos",
-      "sala": "D - 702",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Farmácia",
-      "disciplina": "Microbiologia Basica",
-      "professor": "Caroline da Silva França",
-      "sala": "A - 305",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Fisioterapia",
-      "disciplina": "Cien. Morfofuncionais do Aparelho Locomotor - Membros Infer. e Coluna Vertebral",
-      "professor": "Joedson da Silva",
-      "sala": "D - 402",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Fonoaudiologia",
-      "disciplina": "Disturbios em Motricidade Orofacial",
-      "professor": "Jose Maurício",
-      "sala": "D - 208",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Legislação Empresarial Aplicada",
-      "professor": "Andre da Silva Alencar",
-      "sala": "D - 501",
-      "horario": "08:20 - 10:50"
-    },
-    {
-      "curso": "Gestão de Recursos Humanos",
-      "disciplina": "Métodos Quantitativos",
-      "professor": "Jocimar Douglas Miranda",
-      "sala": "D - 408",
-      "horario": "19:00 - 21:50"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Est. Cur. Prat. Hosp. em Produção Reprodução Animal e Inspeção Sanitaria",
-      "professor": "Rita de Cassia Martins Aurnheimer",
-      "sala": "A - 201",
-      "horario": "08:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Melhoramento Genético Animal",
-      "professor": "Cassia Regina Alves Pereira",
-      "sala": "D - 405",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Molestias Infecciosas e Ornitopatologia Aplicadas A Medicina Veterinária",
-      "professor": "Daniel Gomes Pereira",
-      "sala": "D - 104",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Clínica Médica de Grandes Animais",
-      "professor": "Janaína Godinho Louzada",
-      "sala": "D - 404",
-      "horario": "10:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Manejo e Clínica de Animais Silvestres",
-      "professor": "Daniel Gomes Pereira",
-      "sala": "D - 104",
-      "horario": "10:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Medicina Veterinária Preventiva e Defesa Sanitária Animal",
-      "professor": "Cassia Regina Alves Pereira",
-      "sala": "D - 405",
-      "horario": "10:20 - 12:00"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Molestias Infecciosas e Ornitopatologia Aplicadas A Medicina Veterinaria",
-      "professor": "Daniel Gomes Pereira",
-      "sala": "D - 103",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Medicina Veterinária",
-      "disciplina": "Protozoologia e Ectoparasitologia Veterinaria",
-      "professor": "Namir Santos Moreira",
-      "sala": "D - 104",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Atenção Odontológica nos Ciclos de Vida - Idosos e Grupos Especiais",
-      "professor": "Vanessa Souza",
-      "sala": "D - 103",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Ciências Morfofuncionais Bucomaxilofaciais",
-      "professor": "José Maurício",
-      "sala": "D - 504",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Legal e Deontologia",
-      "professor": "Jalmir Cabral Jr",
-      "sala": "Térreo - 1",
-      "horario": "08:20 - 10:00"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clínica de Propedêutica e Imaginologia Odontológica",
-      "professor": "Clayton Sacramento / Ingrid Braecher",
-      "sala": "Clínica de Odontologia",
-      "horario": "09:00 - 11:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Clinica Integrada de Reabilitação Oral II",
-      "professor": "Bruna Soares / Clayton Sacramento",
-      "sala": "Policlínica de Odontologia",
-      "horario": "18:00 - 20:30"
-    },
-    {
-      "curso": "Odontologia",
-      "disciplina": "Odontologia Pre - Clínica - Agravos ao Periodonto",
-      "professor": "Maria Amélia Pazos",
-      "sala": "D - 401",
-      "horario": "19:00 - 20:40"
-    },
-    {
-      "curso": "Psicologia",
-      "disciplina": "Metodologia da Pesquisa em Psicologia",
-      "professor": "Cheyenne Fernandes Duarte",
-      "sala": "A - 305",
-      "horario": "08:20 - 11:10"
-    },
-    {
-      "curso": "Terapia Ocupacional",
-      "disciplina": "Suporte Basico de Vida",
-      "professor": "Gisele de Mattos Araujo",
-      "sala": "D - 505",
-      "horario": "08:20 - 10:50"
-    }
-  ]
-}
+[
+  {
+    "dia": "SEGUNDA",
+    "curso": "Administração",
+    "disciplina": "Desenvolvimento de Pessoas",
+    "professor": "Edmundo de Lima Lopes",
+    "sala": "A - 303",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Administração",
+    "disciplina": "Modelos de Gestão",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "A - 305",
+    "inicio": "19:00",
+    "fim": "21:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Algoritmos e Tecnicas de Programação",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Engenharia de Software",
+    "professor": "Antonio Cardoso",
+    "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Metodos Numericos Aplicados",
+    "professor": "Humberto Reis",
+    "sala": "A - 402",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Sistemas Operacionais",
+    "professor": "Sergio Dias",
+    "sala": "D - 409",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Algoritmo e Estrutura de Dados",
+    "professor": "Claudio Filgueiras",
+    "sala": "D - 408",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Linguagem de Programação",
+    "professor": "Lucas Castro Faria",
+    "sala": "LAB 1 de Informática",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Programação Orientada A Objetos",
+    "professor": "Marcio Moraes",
+    "sala": "A - 203",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Biomedicina",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematológico",
+    "professor": "Jessica Freitas",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Biomedicina",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Digestorio, Endocrino e Renal",
+    "professor": "Carlos Gustavo Garcia",
+    "sala": "D - 410",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Ciência da Computação",
+    "disciplina": "Algoritmos e Técnicas de Programação",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Economia para Negocios",
+    "professor": "Cheyenne Fernandes Duarte",
+    "sala": "A - 202",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Design de Moda",
+    "disciplina": "Desenho Técnico de Moda",
+    "professor": "Taís Ventura",
+    "sala": "Atelier de Desenho",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Design de Moda",
+    "disciplina": "Modelagem e Tecnologia",
+    "professor": "Graça Pereira",
+    "sala": "LAB de Modelagem",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Design de Moda",
+    "disciplina": "Laboratorio de Confeccao",
+    "professor": "Graça Pereira",
+    "sala": "Laboratorio de Confeccao - 2º Andar - Bloco",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Direito Administrativo - Administração Pública",
+    "professor": "Luis Eduardo dos Santos de Jesus",
+    "sala": "A - 303",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Direito Processual do Trabalho",
+    "professor": "Andreae Silva de Souza",
+    "sala": "D - 504",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Modelo Multiportas e Meios Integrados de Resolução de Conflitos",
+    "professor": "Wagner Luiz Guerra da Fonseca",
+    "sala": "D - 406",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Teoria Geral do Direito Constitucional",
+    "professor": "Jalmir Cabral Junior",
+    "sala": "A - 401",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Teoria Geral do Processo",
+    "professor": "Bruno de Castro Costa Chaves",
+    "sala": "C - 308",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Direito do Trabalho",
+    "professor": "Andrea E Silva de Souza / Wagner Luizgerra da Fonseca",
+    "sala": "A - 403",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Direito Empresarial e Societario",
+    "professor": "Rebeca Leslima Eckstein",
+    "sala": "D - 405",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Direito",
+    "disciplina": "Teoria Geral do Processo",
+    "professor": "Wagner Luizgerra da Fonseca",
+    "sala": "A - 203",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Educação Física",
+    "disciplina": "Aprendizagem Motora e Psicomotoridade",
+    "professor": "Amanda Gomes",
+    "sala": "D - 301",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Enfermagem",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Digestorio, Endocrino e Renal",
+    "professor": "Carlos Gustavo Garcia",
+    "sala": "D - 410",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Enfermagem",
+    "disciplina": "Enfermagem na Saude do Adulto",
+    "professor": "Gleiciana Sant Anna",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Engenharia Civil",
+    "disciplina": "Algoritmos e Lógica de Programação",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Engenharia de Produção",
+    "disciplina": "Algoritmos e Lógica de Programação",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Engenharia Mecanica",
+    "disciplina": "Algoritmos e Lógica de Programação",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Farmácia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Imune e Hematologico",
+    "professor": "Jessica Freitas",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Fisioterapia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Imune e Hematologico",
+    "professor": "Jessica Freitas",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Fisioterapia",
+    "disciplina": "Fisioterapia na Saude da Criança e do Adolescente",
+    "professor": "Fernanda Brum",
+    "sala": "D - 502",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Fisioterapia",
+    "disciplina": "Fisioterapia na Saude do Neonato",
+    "professor": "Fernanda Brum",
+    "sala": "D - 102",
+    "inicio": "20:40",
+    "fim": "22:30"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Digestorio, Endocrino e Renal",
+    "professor": "Carlos Gustavo",
+    "sala": "Auditorio 7º Andar - Bloco D",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Projeto Integrado I",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "A - 305",
+    "inicio": "18:00",
+    "fim": "19:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Modelos de Gestão",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "A - 305",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Bacteriologia e Imunologia Aplicadas A Medicina Veterinária",
+    "professor": "Adolfo Barreto Santos",
+    "sala": "D - 501",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Técnica Cirurgica e Anestesiologia Aplicadas A Medicina Veterinária",
+    "professor": "Janh Carlo Amorim",
+    "sala": "Sala de Transmissão",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Nutrição Animal",
+    "professor": "Cassia Regina Alves Pereira",
+    "sala": "D - 404",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Helmintologia Veterinaria",
+    "professor": "Namir Santos Moreira",
+    "sala": "D - 404",
+    "inicio": "19:00",
+    "fim": "21:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Medicina Veterinaria Preventiva e Defesa Sanitaria Animal",
+    "professor": "Gisa Regina Alves Pereira",
+    "sala": "J - 101",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia na Saúde Coletiva",
+    "professor": "José Muniz",
+    "sala": "D - 402",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pré - Clínica - Propedêutica e Imaginologia",
+    "professor": "José Maurício",
+    "sala": "C - 302",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pré - Clínica - Reabilitação Dentária Unitária e Parcial Fixas",
+    "professor": "William Ribeiro",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica Integrada de Reabilitação Oral I",
+    "professor": "Bruna Soares",
+    "sala": "Clínica de Odontologia",
+    "inicio": "09:00",
+    "fim": "11:30"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica de Propedêutica e Biópsia Bucal",
+    "professor": "Lilian Machado / José Maurício",
+    "sala": "Policlínica de Odontologia",
+    "inicio": "18:00",
+    "fim": "20:30"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica Integrada de Assistencia Odontológica IV",
+    "professor": "Paula Paes",
+    "sala": "Policlínica de Odontologia",
+    "inicio": "18:00",
+    "fim": "20:30"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Cien. Morfofuncionais do Ecossistema Bucal",
+    "professor": "Clayton Sacramento",
+    "sala": "D - 201",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pre - Clínica - Agravos A Polpa Dentária",
+    "professor": "William Ribeiro",
+    "sala": "D - 702",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Sistemas de Informação",
+    "disciplina": "Algoritmos e Técnicas de Programação",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Aprendizagem Motora e Psicomotricidade",
+    "professor": "Amanda Gomes",
+    "sala": "D - 301",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEGUNDA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Digestório, Endocrino e Renal",
+    "professor": "Carlos Gustavo",
+    "sala": "Auditorio 7º Andar Bloco D",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Administração",
+    "disciplina": "Economia para Negocios",
+    "professor": "Edmundo de Lima Lopes Junior",
+    "sala": "D - 702",
+    "inicio": "08:20",
+    "fim": "10:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Administração",
+    "disciplina": "Gestão de Projetos",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 104",
+    "inicio": "08:20",
+    "fim": "10:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Administração",
+    "disciplina": "Legislação Empresarial Aplicada",
+    "professor": "André Alencar",
+    "sala": "Térreo - 1",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Administração",
+    "disciplina": "Pesquisa Operacional",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "A - 304",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Programacao Orientada A Objetos II",
+    "professor": "Pedro Henrique",
+    "sala": "LAB Informatica 4 - 1º Andar - Bloco D",
+    "inicio": "18:30",
+    "fim": "20:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Algoritmos e Estrutura de Dados",
+    "professor": "Antonio Cardoso",
+    "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Modelagem de Dados",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Desenvolvimento de Chatbot",
+    "professor": "Pedro Henrique",
+    "sala": "LAB Informatica 4 - 1º Andar - Bloco D",
+    "inicio": "20:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Computação Gráfica e Processamento de Imagens",
+    "professor": "Claudio Filgueiras",
+    "sala": "LAB 10 de Informática",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Desenvolvimento em Javascript",
+    "professor": "Marcio Moraes",
+    "sala": "D - 408",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Arquitetura e Urbanismo",
+    "disciplina": "Informática Aplicada A Arquitetura - Projetos Ortogonais",
+    "professor": "Rosa Maria",
+    "sala": "LAB de Informatica 1 - 1º Andar - Bloco D",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Biomedicina",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Biomedicina",
+    "disciplina": "Analises Fisico - Quimicas e Microbiologicas de Alimentos",
+    "professor": "Renata Mourão da Silva",
+    "sala": "A - 402",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Biomedicina",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematologico",
+    "professor": "Estefania Anahi Aguilera",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Ciência da Computação",
+    "disciplina": "Modelagem de Dados",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Economia para Negocios",
+    "professor": "Edmundo de Lima Lopes Junior",
+    "sala": "D - 702",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Legislação Empresarial Aplicada",
+    "professor": "André Alencar",
+    "sala": "Térreo - 1",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Design de Moda",
+    "disciplina": "Desenho de Moda",
+    "professor": "Rita Quintanilha",
+    "sala": "Atelier de Desenho - Bloco J - 2º Andar / 410",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Direito Processual Civil - Conhecimento e Processo Eletrônico",
+    "professor": "Luis Eduardo dos Santos de Jesus",
+    "sala": "D - 405",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Direito Processual Penal - Ação Penal e Procedimentos",
+    "professor": "Jair do Nascimento Barcellos",
+    "sala": "D - 504",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Fundamentos Históricos e Introdução ao Estudo do Direito",
+    "professor": "Jalmir Cabral Junior",
+    "sala": "A - 401",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Titulos de Credito e Recuperação e Falência de Empresas",
+    "professor": "Rebeca Lese Lima Eckstein",
+    "sala": "D - 406",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Direito Civil - Familia",
+    "professor": "Rebeca Leslima Eckstein",
+    "sala": "A - 401",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Direito Constitucional",
+    "professor": "Jair do Nascimento Barcellos",
+    "sala": "D - 408",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Direito",
+    "disciplina": "Modelo Multiportas e Meios Integradores de Resolução de Conflitos",
+    "professor": "Wagner Luizgerra da Fonseca",
+    "sala": "A - 403",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Enfermagem",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Enfermagem",
+    "disciplina": "Enfermagem na Saude da Criança e do Adolescente",
+    "professor": "Fabiana Nunes de Oliveira",
+    "sala": "D - 409",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Enfermagem",
+    "disciplina": "Enfermagem na Saude da Mulher",
+    "professor": "Giselda Lopes de Souza",
+    "sala": "J - 102",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Enfermagem",
+    "disciplina": "Fundamentos Semiologicos de Enfermagem",
+    "professor": "Caroline da Silva França",
+    "sala": "D - 104",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Enfermagem",
+    "disciplina": "Fundamentos Tecnicos de Enfermagem",
+    "professor": "Gisele de Mattos Araujo",
+    "sala": "D - 103",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Engenharia Civil",
+    "disciplina": "Cálculo Diferencial e Integral",
+    "professor": "Humberto Reis",
+    "sala": "C - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Engenharia de Produção",
+    "disciplina": "Cálculo Diferencial e Integral",
+    "professor": "Humberto Reis",
+    "sala": "C - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Engenharia Eletrica",
+    "disciplina": "Cálculo Diferencial e Integral",
+    "professor": "Humberto Reis",
+    "sala": "C - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Engenharia Mecanica",
+    "disciplina": "Cálculo Diferencial e Integral",
+    "professor": "Humberto Reis",
+    "sala": "C - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Farmácia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Farmácia",
+    "disciplina": "Analises Fisico - Quimicas e Microbiologicas de Alimentos",
+    "professor": "Renata Mourão",
+    "sala": "A - 402",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Fisioteraoia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Fisioterapia",
+    "disciplina": "Fisioterapia na Saude do Atleta",
+    "professor": "Thiago Cavalcanti",
+    "sala": "C - 308",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Fisioterapia",
+    "disciplina": "Fundamentos da Fisioterapia na Atencao Primaria",
+    "professor": "Andrea",
+    "sala": "A - 404",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Digestório Endócrino e Renal",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Principios de Audiologia",
+    "professor": "Ester",
+    "sala": "D - 203",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Gestão de Projetos",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 104",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Projeto Integrado II",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 104",
+    "inicio": "11:00",
+    "fim": "12:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Legislação Empresarial Aplicada",
+    "professor": "André da Silva Alencar",
+    "sala": "Térreo - 1",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Agrostologia e Forragicultura",
+    "professor": "Rita de Cassia Martins Aurnheimer",
+    "sala": "D - 502",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Ciên. Morfofuncionais Vet. Aplic. ao Sist. Tegumentar, Esquel. e Locomotor",
+    "professor": "Mauricio Davidovich de Barros",
+    "sala": "D - 402",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Est. Cur. Prat. Hosp. em Clínica Medica de Pequenos Animais",
+    "professor": "Debora Silva Gondim Mannarino",
+    "sala": "D - 404",
+    "inicio": "08:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Semiologia e Patologia Clínica Aplicadas A Medicina Veterinária",
+    "professor": "Mauricio Davidovich de Barros",
+    "sala": "D - 402",
+    "inicio": "11:20",
+    "fim": "13:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Cien. Morfofuncionais Vet. Aplic. ao Sist. Tegumentar, Esquel. e Locomotor",
+    "professor": "Mauricio Davidovich Barros",
+    "sala": "J - 101",
+    "inicio": "19:00",
+    "fim": "21:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Patologia Veterinaria Geral",
+    "professor": "Aline Brasil",
+    "sala": "D - 701",
+    "inicio": "19:00",
+    "fim": "21:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Nutricao",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematologico",
+    "professor": "Estefania Anahi Aguilera",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Odontologia",
+    "disciplina": "Cien. Morfofuncionais do Ecossistema Bucal",
+    "professor": "Clayton Sacramento",
+    "sala": "D - 407",
+    "inicio": "08:00",
+    "fim": "10:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica Integrada de Reabilitação Oral II",
+    "professor": "Bruna Soares",
+    "sala": "Clínica de Odontologia",
+    "inicio": "09:00",
+    "fim": "11:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Odontologia",
+    "disciplina": "Ciências Patológicas Aplicadas A Odontologia",
+    "professor": "Ingrid Braecher",
+    "sala": "D - 603",
+    "inicio": "18:00",
+    "fim": "22:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pre - Clínica - Propedêutica e Imaginologia",
+    "professor": "José Maurício Veloso",
+    "sala": "D - 401",
+    "inicio": "19:00",
+    "fim": "21:40"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Psicologia",
+    "disciplina": "Psicologia Social - Noções Introdutórias",
+    "professor": "Luiz Alberto Mariano da Cruz",
+    "sala": "D - 401",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Psicologia",
+    "disciplina": "Psicologia e Políticas Públicas",
+    "professor": "Luiz Alberto Mariano da Cruz",
+    "sala": "D - 401",
+    "inicio": "10:00",
+    "fim": "11:10"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Psicologia",
+    "disciplina": "Psicologia, Ciência e Profissão",
+    "professor": "Jorge Oswaldo Alves Vieira Martins",
+    "sala": "D - 405",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Sistemas de Informação",
+    "disciplina": "Modelagem de Dados",
+    "professor": "Marcio Moraes",
+    "sala": "D - 302",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "TERCA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Imune e Hematológico",
+    "professor": "Estefania Anahi Aguilera",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Administração",
+    "disciplina": "Contabilidade Introdutoria",
+    "professor": "Edmundo de Lima Lopes Junior",
+    "sala": "01 Térreo",
+    "inicio": "08:20",
+    "fim": "10:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Administração",
+    "disciplina": "Capital de Giro e Analise Financeira",
+    "professor": "Edmundo de Lima Lopes",
+    "sala": "Térreo - 1",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Desenvolvimento com Low Code",
+    "professor": "Antonio Cardoso",
+    "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
+    "inicio": "18:30",
+    "fim": "20:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Linguagem de Programacao",
+    "professor": "Lucas Castro",
+    "sala": "LAB 01 Informatica - 1º Andar - Bloco D",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Compiladores",
+    "professor": "Antonio Cardoso",
+    "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
+    "inicio": "20:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Algoritmos e Estrutura de Dados Avançado",
+    "professor": "Claudio Filgueiras",
+    "sala": "D - 404",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Análise e Modelagem de Sistemas",
+    "professor": "Marcio Moraes",
+    "sala": "D - 405",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Metodos Matematicos",
+    "professor": "Humberto Reis",
+    "sala": "D - 406",
+    "inicio": "10:00",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Arquitetura e Urbanismo",
+    "disciplina": "Maquetes",
+    "professor": "Fernanda",
+    "sala": "Sala de Desenho - 203",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Biomedicina",
+    "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
+    "professor": "Heloisa Osanai",
+    "sala": "D - 402",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Biomedicina",
+    "disciplina": "Genetica Medica",
+    "professor": "Jessica Freitas",
+    "sala": "A - 304",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Ciência da Computação",
+    "disciplina": "Algoritmos e Técnicas de Programação",
+    "professor": "Germano Chacon",
+    "sala": "D - 401",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Contabilidade Introdutoria",
+    "professor": "Edmundo de Lima Lopes Junior",
+    "sala": "01 Térreo",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Economia para Negócios",
+    "professor": "Cheyenne Fernandes Duarte",
+    "sala": "A - 202",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Design de Moda",
+    "disciplina": "Comunicação de Moda",
+    "professor": "Will Araújo",
+    "sala": "Auditório",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Design de Moda",
+    "disciplina": "Desenho Técnico de Moda",
+    "professor": "Tais Ventura",
+    "sala": "LAB de Informatica 7 - 1º Andar - Bloco A",
+    "inicio": "19:00",
+    "fim": "21:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Direito",
+    "disciplina": "Direito Processual Civil - Execução e Cumprimento de Sentença",
+    "professor": "Luis Eduardo dos Santos de Jesus",
+    "sala": "A - 303",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Direito",
+    "disciplina": "Teoria Jurídica do Direito Penal",
+    "professor": "Anderson Yuji Ito",
+    "sala": "A - 403",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Direito",
+    "disciplina": "Direito Administrativo - Regime Juridico Administrativo",
+    "professor": "Luis Eduardo dos Santos de Jesus",
+    "sala": "D - 406",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Direito",
+    "disciplina": "Direito Civil - Obrigações",
+    "professor": "Wagner Luizgerra da Fonseca",
+    "sala": "A - 303",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Direito",
+    "disciplina": "Direito Processual do Trabalho",
+    "professor": "Andrea E Silva de Souza / Wagner Luizgerra da Fonseca",
+    "sala": "D - 408",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Educação Física",
+    "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
+    "professor": "Heloisa Osanai",
+    "sala": "D - 402",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Enfermagem",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
+    "professor": "Maxwell Oliveira",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Enfermagem",
+    "disciplina": "Enfermagem na Saude da Criança e do Adolescente",
+    "professor": "Fabiana Nunes de Oliveira",
+    "sala": "D - 406",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Enfermagem",
+    "disciplina": "Enfermagem na Saude da Mulher",
+    "professor": "Giselda Lopes de Souza",
+    "sala": "A - 302",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Enfermagem",
+    "disciplina": "Fundamentos Semiologicos de Enfermagem",
+    "professor": "Caroline da Silva França",
+    "sala": "D - 101",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Enfermagem",
+    "disciplina": "Fundamentos Tecnicos de Enfermagem",
+    "professor": "Gisele de Mattos Araujo",
+    "sala": "D - 102",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Engenharia Civil",
+    "disciplina": "Física Geral e Experimental Mecânica",
+    "professor": "Laurenio Lopes",
+    "sala": "D - 401",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Engenharia Eletrica",
+    "disciplina": "Física Geral e Experimental Mecânica",
+    "professor": "Laurenio Lopes",
+    "sala": "D - 401",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Farmácia",
+    "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
+    "professor": "Heloisa Osanai",
+    "sala": "D - 402",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Fisioterapia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
+    "professor": "Maxwell Oliveira",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Fisioterapia",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
+    "professor": "Joedson da Silva",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Fisioterapia",
+    "disciplina": "Diag. Cinetico - Funcional e Imaginologia - Membros Superiores, Cabeça e Tronco",
+    "professor": "Thiago Cavalcanti",
+    "sala": "D - 409",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
+    "professor": "Maxwell Oliveira",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
+    "professor": "Joedson da Silva",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Gestão de Pessoas",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 701",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Ciên. Morfofuncionais Veterinária Aplicada ao Sistema Genito Urinario",
+    "professor": "Ana Cristina Nery de Castro",
+    "sala": "D - 702",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Ciên. Morfofuncionais Veterinária Aplicada ao Sistema Nervoso e Endocrino",
+    "professor": "Ana Cristina Nery de Castro",
+    "sala": "D - 702",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Clínica Cirurgica Veterinária",
+    "professor": "Janh Carlo Amorim",
+    "sala": "Transmissão",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Est. Cur. Prat. Hosp. em Anestesiologia, Clínica Cirurgica e Obstetricia",
+    "professor": "Aluizio Nunes dos Santos",
+    "sala": "A - 201",
+    "inicio": "08:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Fisiopatologia da Reprodução Aplicada Medicina Veterinária",
+    "professor": "Alline Brasil",
+    "sala": "D - 104",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Processos Patologicos Aplicados A Medicina Veterinária",
+    "professor": "Flavia Liparisi",
+    "sala": "A - 202",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Virologia e Micologia Aplicadas A Medicina Veterinária",
+    "professor": "Adolfo Barreto Santos",
+    "sala": "A - 304",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Biotecnologia e Obstetricia Aplicadas A Medicina Veterinária",
+    "professor": "Alline Brasil",
+    "sala": "Sala de Transmissão",
+    "inicio": "10:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Inspeção de Produtos de Origem Animal",
+    "professor": "Priscila Faber",
+    "sala": "D - 502",
+    "inicio": "10:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Ciên. Morfofuncionais Veterinária Aplicada ao Sistema Genito Urinario",
+    "professor": "Ana Cristina Nery de Castro",
+    "sala": "D - 702",
+    "inicio": "11:20",
+    "fim": "13:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Cien. Morfofuncionais Veterinaria Aplicada ao Sistema Genito Urinario",
+    "professor": "Ana Cristina Nery de Castro",
+    "sala": "D - 701",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Semiologia e Patologia Clinica Aplicadas À Medicina Veterinaria",
+    "professor": "Mauricio Davidovich Barros",
+    "sala": "D - 702",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Nutricao",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
+    "professor": "Joedson da Silva",
+    "sala": "D - 411",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Cien. Morfofuncionais Aplicadas A Odontologia",
+    "professor": "José Maurício",
+    "sala": "D - 301",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Ciências Patológicas Aplicadas A Odontologia",
+    "professor": "José Maurício",
+    "sala": "D - 301",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pré - Clínica - Agravos ao Periodonto",
+    "professor": "Maria Amélia Pazos",
+    "sala": "D - 103",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica Integrada de Assistência Odontológica IV",
+    "professor": "Paula Paes / William Ribeiro",
+    "sala": "Clínica de Odontologia",
+    "inicio": "09:00",
+    "fim": "11:30"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Clinica de Propedêutica Cirurgica Odontológica",
+    "professor": "Clayton Sacramento / William Ribeiro",
+    "sala": "Policlínica de Odontologia",
+    "inicio": "18:00",
+    "fim": "20:30"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pre - Clínica - Agravos ao Esmalte e Dentina",
+    "professor": "Paula Paes",
+    "sala": "D - 504",
+    "inicio": "18:00",
+    "fim": "22:00"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Fundamentos para Atencao A Criança I",
+    "professor": "Vanessa Souza",
+    "sala": "C - 308",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Legal e Deontologia",
+    "professor": "Jalmir Cabral Jr",
+    "sala": "A - 203",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Psicologia",
+    "disciplina": "Processos Psicologicos Básicos",
+    "professor": "Carlos Gustavo Garcia",
+    "sala": "J - 205",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Cién. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
+    "professor": "Maxwell Oliveira",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUARTA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratorio",
+    "professor": "Joedson da Silva",
+    "sala": "D - 410",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Administração",
+    "disciplina": "Metodos Quantitativos",
+    "professor": "Lucas Castro Faria",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Administração",
+    "disciplina": "Legislação Empresarial Aplicada",
+    "professor": "André da Silva Alencar",
+    "sala": "D - 501",
+    "inicio": "",
+    "fim": ""
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Administração",
+    "disciplina": "Simulação Empresarial",
+    "professor": "Cheyenne Fernandes Duarte",
+    "sala": "A - 404",
+    "inicio": "18:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Administração",
+    "disciplina": "Analise de Investimentos e Fontes de Financiamento",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 201",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Administração",
+    "disciplina": "Contabilidade Introdutória",
+    "professor": "Edmundo de Lima Lopes",
+    "sala": "C - 308",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Administração",
+    "disciplina": "Diagnóstico e Intervenção Empresarial",
+    "professor": "Cheyenne Fernandes Duarte",
+    "sala": "A - 404",
+    "inicio": "21:00",
+    "fim": "22:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Analise e Modelagem de Sistemas",
+    "professor": "Lucas Castro",
+    "sala": "LAB 01 Informatica - 1º Andar - Bloco D",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Lógica e Matemática Computacional",
+    "professor": "Daniel Ricardo",
+    "sala": "D - 208",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Programacao Orientada A Objetos",
+    "professor": "Pedro Henrique",
+    "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Física Geral",
+    "professor": "Humberto Reis",
+    "sala": "D - 401",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Sistemas Digitais e Microprocessadores",
+    "professor": "Sergio Dias",
+    "sala": "LAB 9 de Informática",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Arquiteturas Paralelas e Distribuídas",
+    "professor": "Sergio Dias",
+    "sala": "LAB 9 de Informática",
+    "inicio": "10:00",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Arquitetura e Urbanismo",
+    "disciplina": "Fundamentos de Topografia",
+    "professor": "Michele Pereira",
+    "sala": "A - 201",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Biomedicina",
+    "disciplina": "Praticas em Saúde",
+    "professor": "Caroline da Silva França",
+    "sala": "D - 502",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Ciência da Computação",
+    "disciplina": "Lógica e Matemática Computacional",
+    "professor": "Daniel Ricardo",
+    "sala": "D - 208",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Metodos Quatitativos",
+    "professor": "Lucas Castro Faria",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Analise de Investimentos e Fontes de Financiamento",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 201",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Contabilidade Introdutória",
+    "professor": "Edmundo de Lima Lopes",
+    "sala": "C - 308",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Design de Moda",
+    "disciplina": "Informática Aplicada A Moda",
+    "professor": "Taís Ventura",
+    "sala": "LAB 1 de Informática",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Design de Moda",
+    "disciplina": "Laboratório de Confecção",
+    "professor": "Graça Pereira",
+    "sala": "Confecção",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Design de Moda",
+    "disciplina": "Modelagem e Tecnologia",
+    "professor": "Graça Pereira",
+    "sala": "LAB de Modelagem - 2º Andar - Bloco J",
+    "inicio": "19:00",
+    "fim": "21:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Direito",
+    "disciplina": "Direito Cibernetico",
+    "professor": "Luis Eduardo dos Santos de Jesus",
+    "sala": "D - 406",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Direito",
+    "disciplina": "Direito Constitucional",
+    "professor": "Jalmir Cabral Junior",
+    "sala": "D - 504",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Direito",
+    "disciplina": "Direito Previdenciario",
+    "professor": "Jair do Nascimento Barcellos",
+    "sala": "D - 502",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Direito",
+    "disciplina": "Direito Civil - Contratos",
+    "professor": "Wagner Luizgerra da Fonseca",
+    "sala": "A - 403",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Direito",
+    "disciplina": "Direito Internacional",
+    "professor": "Jalmir Cabral Junior",
+    "sala": "D - 203",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Direito",
+    "disciplina": "Direito Processual Civil - Execução e Cumprimento de Sentença",
+    "professor": "Luis Eduardo dos Santos de Jesus",
+    "sala": "D - 408",
+    "inicio": "19:00",
+    "fim": "21:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Educação Física",
+    "disciplina": "Fundamentos dos Movimentos Básicos",
+    "professor": "Ari Cantuária",
+    "sala": "D - 505",
+    "inicio": "10:00",
+    "fim": "12:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Enfermagem",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratório",
+    "professor": "Carlos Gustavo",
+    "sala": "D - 501",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Enfermagem",
+    "disciplina": "Enfermagem na Saude do Adulto",
+    "professor": "Gleiciana Sant Anna",
+    "sala": "D - 407",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Enfermagem",
+    "disciplina": "Seminario Integrador na Saude da Mulher",
+    "professor": "Pedro Paulo Correa Santana",
+    "sala": "A - 203",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Engenharia Civil",
+    "disciplina": "Desenho Técnico Projetivo",
+    "professor": "Rosa Maria",
+    "sala": "D - 504",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Engenharia de Produção",
+    "disciplina": "Desenho Técnico Projetivo",
+    "professor": "Rosa Maria",
+    "sala": "D - 504",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Engenharia Eletrica",
+    "disciplina": "Desenho Técnico Projetivo",
+    "professor": "Rosa Maria",
+    "sala": "D - 504",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Engenharia Mecanica",
+    "disciplina": "Desenho Técnico Projetivo",
+    "professor": "Rosa Maria",
+    "sala": "D - 504",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Farmácia",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
+    "professor": "Maxwell Oliveira",
+    "sala": "J - 205",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Fisioterapia",
+    "disciplina": "Cien. Morfofuncionais do Aparelho Locomotor - Membros Super., Cabeça e Tronco",
+    "professor": "Joedson da Silva",
+    "sala": "D - 102",
+    "inicio": "19:00",
+    "fim": "21:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Ciên. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratório",
+    "professor": "Carlos Gustavo",
+    "sala": "D - 501",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Tegumentar, Locomotor e Reprodutor",
+    "professor": "Maxwell Oliveira",
+    "sala": "J - 205",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Ciên. Morfofuncionais Vet. Aplic. ao Sist. Digestorio e Glandulas Anexas",
+    "professor": "Mauricio Davidovich de Barros",
+    "sala": "A - 402",
+    "inicio": "08:20",
+    "fim": "11:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Clínica Medica de Pequenos Animais",
+    "professor": "Debora Silva Gondim Mannarino",
+    "sala": "D - 702",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Enfermidades Parasitarias Aplicadas A Medicina Veterinária",
+    "professor": "Namir Santos Moreira",
+    "sala": "D - 104",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Est. Cur. Prat. Hosp. em Clínica Medica de Grandes Animais, Lab. e Saúde Pública",
+    "professor": "Janaína Godinho Louzado",
+    "sala": "A - 302",
+    "inicio": "08:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Farmacologia e Toxicologia Aplicadas A Medicina Veterinária",
+    "professor": "Aluizio Nunes dos Santos",
+    "sala": "A - 301",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Anestesiologia Veterinária Aplicada",
+    "professor": "Aluizio Nunes dos Santos",
+    "sala": "A - 301",
+    "inicio": "10:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Protozoologia e Ectoparasitologia Veterinária",
+    "professor": "Namir Santos Moreira",
+    "sala": "D - 104",
+    "inicio": "11:20",
+    "fim": "13:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Enfermidades Parasitarias Aplicadas A Medicina Veterinaria",
+    "professor": "Namir Santos Moreira",
+    "sala": "J - 101",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Nutricao",
+    "disciplina": "Introducao A Biologia Celular e do Desenvolvimento",
+    "professor": "Estefania Anahi",
+    "sala": "D - 501",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Ciências Moleculares e Celulares",
+    "professor": "Estefania Anahi",
+    "sala": "D - 301",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pré - Clínica - Agravos A Polpa Dentária",
+    "professor": "William Ribeiro",
+    "sala": "D - 101",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica de Propedêutica Cirúrgica Odontológica",
+    "professor": "Clayton Sacramento / Paula Paes",
+    "sala": "Clínica de Odontologia",
+    "inicio": "09:00",
+    "fim": "11:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica Integrada de Atenção A Criança II",
+    "professor": "Vanessa Souza / Fernanda Mafei",
+    "sala": "Clínica de Odontologia",
+    "inicio": "09:00",
+    "fim": "11:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica Integrada de Assistencia Odontológica I",
+    "professor": "Clayton Sacramento / Vanessa Souza",
+    "sala": "Policlínica de Odontologia",
+    "inicio": "18:00",
+    "fim": "20:30"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pre - Clínica - Reabilitação Dentária Unitária e Parcial Fixas",
+    "professor": "William Ribeiro",
+    "sala": "Auditorio - 7º Andar - Bloco D",
+    "inicio": "18:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Odontologia",
+    "disciplina": "Cien. Morfofuncionais Aplicadas A Odontologia",
+    "professor": "Jose Maurício Veloso",
+    "sala": "D - 702",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Psicologia",
+    "disciplina": "Desenvolvimento Humano I",
+    "professor": "Berta Sheila de Souza Ribeiro",
+    "sala": "D - 407",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Psicologia",
+    "disciplina": "Analise Experimental do Comportamento",
+    "professor": "Julio Cesar",
+    "sala": "A - 305",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Sistemas de Informação",
+    "disciplina": "Lógica e Matemática Computacional",
+    "professor": "Daniel Ricardo",
+    "sala": "D - 208",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Cien. Morfofuncionais dos Sistemas Nervoso e Cardiorrespiratório",
+    "professor": "Carlos Gustavo",
+    "sala": "D - 501",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Protese e Ortese",
+    "professor": "Ari Cantuaria",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "QUINTA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Introdução A Biologia Celular e do Desenvolvimento",
+    "professor": "Estefania Anahi Aguilera",
+    "sala": "D - 501",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Administração",
+    "disciplina": "Mercado de Capitais",
+    "professor": "Edmundo de Lima Lopes",
+    "sala": "D - 409",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Arquitetura e Organização de Computadores",
+    "professor": "Sergio Dias",
+    "sala": "LAB 9 de Informática",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Computacao Grafica e Processamento de Imagens",
+    "professor": "Caio Richter",
+    "sala": "LAB 10 Informatica - Bloco C",
+    "inicio": "18:30",
+    "fim": "20:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Metodos Matematicos",
+    "professor": "Lucas Castro",
+    "sala": "D - 406",
+    "inicio": "18:30",
+    "fim": "20:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Sistemas Distribuidos",
+    "professor": "Sergio Dias",
+    "sala": "LAB 04 Informatica - 1º Andar - Bloco C",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Engenharia de Software",
+    "professor": "Lucas Castro",
+    "sala": "D - 406",
+    "inicio": "20:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "disciplina": "Projeto de Software",
+    "professor": "Caio Richter",
+    "sala": "LAB 10 Informatica - 1º Andar - Bloco C",
+    "inicio": "20:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Compiladores",
+    "professor": "Claudio Filgueiras",
+    "sala": "D - 302",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Análise e Desenvolvimento de Sistemas | Ciência da Computação",
+    "disciplina": "Modelagem de Dados",
+    "professor": "Marcio Moraes",
+    "sala": "D - 308",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Biomedicina",
+    "disciplina": "Hematologia",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "D - 101",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Biomedicina",
+    "disciplina": "Microbiologia Basica",
+    "professor": "Caroline da Silva França",
+    "sala": "A - 305",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Biomedicina",
+    "disciplina": "Patologia Geral",
+    "professor": "Fernanda Cavalcanti",
+    "sala": "D - 402",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Ciência da Computação",
+    "disciplina": "Lógica e Matemática Computacional",
+    "professor": "Daniel Ricardo",
+    "sala": "D - 401",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Teoria da Contabilidade",
+    "professor": "Edmundo de Lima Lopes Junior",
+    "sala": "D - 701",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Ciências Contábeis",
+    "disciplina": "Métodos Quantitativos",
+    "professor": "Silvio Franklin",
+    "sala": "D - 502",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Direito",
+    "disciplina": "Direito Penal - dos Crimes em Especie",
+    "professor": "Anderson Yuji Ito",
+    "sala": "D - 407",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Direito",
+    "disciplina": "Direito Coletivo do Trabalho e Tutelas Coletivas",
+    "professor": "Andrea E Silva de Souza",
+    "sala": "D - 407",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Direito",
+    "disciplina": "Direito Penal - Teoria das Penas e Execução Penal",
+    "professor": "Anderson Yuji Ito",
+    "sala": "A - 403",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Direito",
+    "disciplina": "Direito Previdenciario",
+    "professor": "Jair do Nascimento Barcellos",
+    "sala": "A - 203",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Educação Física",
+    "disciplina": "Suporte Básico de Vida e Primeiros Socorros",
+    "professor": "Gisele de Mattos Araujo",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Enfermagem",
+    "disciplina": "Farmacologia dos Sistemas",
+    "professor": "Gabriel Correa de Farias",
+    "sala": "D - 402",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Enfermagem",
+    "disciplina": "Farmacologia dos Sistemas",
+    "professor": "Renata Mourão",
+    "sala": "D - 204",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Enfermagem",
+    "disciplina": "Processo de Cuidar em Enfermagem",
+    "professor": "Vagner Marins Barcellos",
+    "sala": "D - 702",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Farmácia",
+    "disciplina": "Microbiologia Basica",
+    "professor": "Caroline da Silva França",
+    "sala": "A - 305",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Fisioterapia",
+    "disciplina": "Cien. Morfofuncionais do Aparelho Locomotor - Membros Infer. e Coluna Vertebral",
+    "professor": "Joedson da Silva",
+    "sala": "D - 402",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Fonoaudiologia",
+    "disciplina": "Disturbios em Motricidade Orofacial",
+    "professor": "Jose Maurício",
+    "sala": "D - 208",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Legislação Empresarial Aplicada",
+    "professor": "Andre da Silva Alencar",
+    "sala": "D - 501",
+    "inicio": "08:20",
+    "fim": "10:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Gestão de Recursos Humanos",
+    "disciplina": "Métodos Quantitativos",
+    "professor": "Jocimar Douglas Miranda",
+    "sala": "D - 408",
+    "inicio": "19:00",
+    "fim": "21:50"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Est. Cur. Prat. Hosp. em Produção Reprodução Animal e Inspeção Sanitaria",
+    "professor": "Rita de Cassia Martins Aurnheimer",
+    "sala": "A - 201",
+    "inicio": "08:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Melhoramento Genético Animal",
+    "professor": "Cassia Regina Alves Pereira",
+    "sala": "D - 405",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Molestias Infecciosas e Ornitopatologia Aplicadas A Medicina Veterinária",
+    "professor": "Daniel Gomes Pereira",
+    "sala": "D - 104",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Clínica Médica de Grandes Animais",
+    "professor": "Janaína Godinho Louzada",
+    "sala": "D - 404",
+    "inicio": "10:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Manejo e Clínica de Animais Silvestres",
+    "professor": "Daniel Gomes Pereira",
+    "sala": "D - 104",
+    "inicio": "10:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Medicina Veterinária Preventiva e Defesa Sanitária Animal",
+    "professor": "Cassia Regina Alves Pereira",
+    "sala": "D - 405",
+    "inicio": "10:20",
+    "fim": "12:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Molestias Infecciosas e Ornitopatologia Aplicadas A Medicina Veterinaria",
+    "professor": "Daniel Gomes Pereira",
+    "sala": "D - 103",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Medicina Veterinária",
+    "disciplina": "Protozoologia e Ectoparasitologia Veterinaria",
+    "professor": "Namir Santos Moreira",
+    "sala": "D - 104",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Odontologia",
+    "disciplina": "Atenção Odontológica nos Ciclos de Vida - Idosos e Grupos Especiais",
+    "professor": "Vanessa Souza",
+    "sala": "D - 103",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Odontologia",
+    "disciplina": "Ciências Morfofuncionais Bucomaxilofaciais",
+    "professor": "José Maurício",
+    "sala": "D - 504",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Legal e Deontologia",
+    "professor": "Jalmir Cabral Jr",
+    "sala": "Térreo - 1",
+    "inicio": "08:20",
+    "fim": "10:00"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Odontologia",
+    "disciplina": "Clínica de Propedêutica e Imaginologia Odontológica",
+    "professor": "Clayton Sacramento / Ingrid Braecher",
+    "sala": "Clínica de Odontologia",
+    "inicio": "09:00",
+    "fim": "11:30"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Odontologia",
+    "disciplina": "Clinica Integrada de Reabilitação Oral II",
+    "professor": "Bruna Soares / Clayton Sacramento",
+    "sala": "Policlínica de Odontologia",
+    "inicio": "18:00",
+    "fim": "20:30"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Odontologia",
+    "disciplina": "Odontologia Pre - Clínica - Agravos ao Periodonto",
+    "professor": "Maria Amélia Pazos",
+    "sala": "D - 401",
+    "inicio": "19:00",
+    "fim": "20:40"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Psicologia",
+    "disciplina": "Metodologia da Pesquisa em Psicologia",
+    "professor": "Cheyenne Fernandes Duarte",
+    "sala": "A - 305",
+    "inicio": "08:20",
+    "fim": "11:10"
+  },
+  {
+    "dia": "SEXTA",
+    "curso": "Terapia Ocupacional",
+    "disciplina": "Suporte Basico de Vida",
+    "professor": "Gisele de Mattos Araujo",
+    "sala": "D - 505",
+    "inicio": "08:20",
+    "fim": "10:50"
+  }
+]
