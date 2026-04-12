@@ -1,5 +1,107 @@
-# Gerenciador de Salas
+# 📚 Sistema de Gerenciamento de Horários Escolares
 
-![Home Page](/front-end/imagens/ChatGPT%20Image%2023%20de%20mar.%20de%202026,%2012_08_54.png)
+Sistema web para **visualização e gerenciamento de quadros de horários escolares**, permitindo que administradores cadastrem horários, professores e matérias, enquanto os usuários visualizam o cronograma organizado por sala ou turma.
 
-> Site focado no gerenciamento de quadro de horários institucional interativo que rotaciona os dias.
+---
+
+# 🚀 Tecnologias Utilizadas
+
+## Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+
+## Backend
+
+* Em processo...
+
+## Outras ferramentas
+
+* Git
+* JSON para armazenamento de dados
+* Fetch API para comunicação entre frontend e backend
+
+---
+
+# 🎯 Funcionalidades
+
+## 👨‍🏫 Painel Administrativo
+
+* Visualizar horários cadastrados
+* Adicionar novos horários
+* Gerenciar matérias
+* Gerenciar professores
+* Atualizar informações do quadro de horários
+
+## 🧑‍🎓 Visualização Pública
+
+* Visualização do quadro de horários
+* Organização por **dias da semana**
+* Exibição de **professor, matéria e sala**
+* Interface simples e objetiva
+
+---
+
+# 📂 Estrutura do Projeto
+
+```
+GERENCIADOR_SALA/
+│
+├── front-end/
+│   │
+│   ├── css/
+│   │   ├── adminview.css
+│   │   ├── gerenciador_sala.css
+│   │   └── reset.css
+│   │
+│   ├── html/
+│   │   ├── adminView.html
+│   │   └── index.html
+│   │
+│   ├── imagens/
+│   │   ├── logo_css_branca.png
+│   │   ├── logo_css_fundo.jpg
+│   │   ├── logo_css.png
+│   │   └── logo_html.png
+│   │
+│   └── js/
+│       ├── admin.js
+│       └── script.js
+│
+├── json/
+│   └── aulas.json
+│
+└── README.md
+```
+
+# 🔄 Funcionamento
+
+1. O **backend em Node.js** fornece uma API para manipular os horários.
+2. O **frontend utiliza Fetch API** para buscar os dados.
+3. As informações são armazenadas em **JSON**.
+4. O painel administrativo permite atualizar os dados sem editar manualmente o arquivo.
+
+---
+
+# 📌 Melhorias Futuras
+
+* [ ] Autenticação para acesso ao painel administrativo
+* [ ] Banco de dados (MongoDB ou PostgreSQL)
+* [ ] Interface mais interativa
+* [ ] Filtros por turma ou professor
+* [ ] Atualização em tempo real
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por **Alexandre Magno** e **Felipe Lopes**
+
+GitHub:
+https://github.com/xandymagnus
+https://github.com/felps842
+
+---
+
+⭐ Se este projeto te ajudou ou serviu de inspiração, considere dar uma **estrela no repositório**.
