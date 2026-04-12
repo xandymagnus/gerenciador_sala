@@ -141,7 +141,7 @@ return data
 // ================================
 
 let paginaAtual = 0
-const aulasPorPagina = 7
+const aulasPorPagina = 6
 
 function iniciarRotacao(){
 
