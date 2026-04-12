@@ -99,9 +99,7 @@ GERENCIADOR_SALA/
 Desenvolvido por **Alexandre Magno** e **Felipe Lopes**
 
 GitHub:
-https://github.com/xandymagnus
-
-https://github.com/felps842
+https://github.com/xandymagnus | https://github.com/felps842
 
 ---
 
