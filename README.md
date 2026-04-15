@@ -108,10 +108,10 @@ GERENCIADOR_SALA/
 
 # 👨‍💻 Autores
 
-Desenvolvido por **Alexandre Magno** e **Felipe Lopes**
+Desenvolvido por **Alexandre Magno**, **Felipe Lopes** e **Otávio Peralta**
 
 GitHub:
-https://github.com/xandymagnus | https://github.com/felps842
+https://github.com/xandymagnus | https://github.com/felps842 | https://github.com/Kmkz777
 
 ---
 
