@@ -1,3 +1,5 @@
+# 🏛️ Estrutura
+
 ## front-end/css
 Arquivos responsáveis pela estilização do sistema.
 
@@ -22,3 +24,21 @@ Armazena os dados do sistema.
 
 ## docs
 Organiza a documentação em blocos.
+
+---
+
+# 🗒️ Comentários
+
+## JavaScript
+
+Padrão:
+
+// ================================
+// EXEMPLO
+// ================================
+
+- Separa o algoritmo em sessões; padrão de escrita em upperCase
+
+// exemplo
+
+- Dita o que executa um bloco do algoritmo (usanda normalmente em sequências); padrão de escrita em lowerCase
