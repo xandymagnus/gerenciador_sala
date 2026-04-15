@@ -1,6 +1,10 @@
 # 📚 Sistema de Gerenciamento de Horários Escolares
 
-Sistema web para **visualização e gerenciamento de quadros de horários escolares**, permitindo que administradores cadastrem horários, professores e matérias, enquanto os usuários visualizam o cronograma organizado por sala ou turma.
+Sistema web para **visualização e gerenciamento de quadros de horários escolares**, permitindo que administradores cadastrem horários, professores e matérias, enquanto os usuários visualizam o cronograma organizado por sala ou turma. 
+
+## 👾 Versão
+
+<u>***v0.1.1***</u>
 
 ---
 
@@ -48,6 +52,14 @@ Sistema web para **visualização e gerenciamento de quadros de horários escola
 ```
 GERENCIADOR_SALA/
 │
+├── docs/
+|   ├── arquitetura.md
+|   ├── contribuicao.md
+|   ├── dados.md
+|   ├── estrutura.md
+|   ├── funcionamento.md
+|   └── indice.md
+|
 ├── front-end/
 │   │
 │   ├── css/
@@ -94,7 +106,7 @@ GERENCIADOR_SALA/
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
 Desenvolvido por **Alexandre Magno** e **Felipe Lopes**
 
