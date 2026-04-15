@@ -1,6 +1,6 @@
 async function carregar() {
 
-    const resposta = await fetch("../json/aulas.json");
+    const resposta = await fetch("/json/aulas.json");
     const dados = await resposta.json();
 
     const materias = pegarUnicos(dados, "materia");

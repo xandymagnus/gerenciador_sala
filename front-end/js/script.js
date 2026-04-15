@@ -42,7 +42,7 @@ document.querySelector(".titulo").textContent =
 
 async function carregarAulas(){
 
-const response = await fetch("../json/aulas.json")
+const response = await fetch("/json/aulas.json")
 const aulas = await response.json()
 
 processarAulas(aulas)
