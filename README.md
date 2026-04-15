@@ -101,8 +101,8 @@ GERENCIADOR_SALA/
 * [ ] Autenticação para acesso ao painel administrativo
 * [ ] Banco de dados (MongoDB ou PostgreSQL)
 * [ ] Interface mais interativa
-* [ ] Filtros por turma ou professor
-* [ ] Atualização em tempo real
+* [ ] Filtros de: ordem alfabética e horários
+* [x] Atualização em tempo real
 
 ---
 
