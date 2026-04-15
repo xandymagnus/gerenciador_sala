@@ -73,9 +73,8 @@ GERENCIADOR_SALA/
 │   │
 │   ├── imagens/
 │   │   ├── logo_css_branca.png
-│   │   ├── logo_css_fundo.jpg
 │   │   ├── logo_css.png
-│   │   └── logo_html.png
+│   │   └── logo_icon.png
 │   │
 │   └── js/
 │       ├── admin.js
