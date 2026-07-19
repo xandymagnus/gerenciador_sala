@@ -225,3 +225,5 @@ setInterval(()=>{
 location.reload()
 
 },TEMPO_ATUALIZACAO)
+
+//EU ESTIVE AQUI!!

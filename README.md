@@ -97,10 +97,10 @@ GERENCIADOR_SALA/
 
 # 📌 Melhorias Futuras
 
-* [ ] Autenticação para acesso ao painel administrativo
-* [ ] Banco de dados (MongoDB ou PostgreSQL)
-* [ ] Interface mais interativa
-* [ ] Filtros de: ordem alfabética e horários
+* [ ] Adicionar seleção de aulas no painel administrativo
+* [ ] Indicador de páginas
+* [ ] Relógio em tempo real
+* [x] Filtros de: ordem alfabética e horários
 * [x] Atualização em tempo real
 
 ---
