@@ -23,8 +23,30 @@
     </header>
 
     <div class="container_acoes">
-            <button>Adicionar aula</button>
-            <button>Ver aulas</button>
+        <button id="addButton" type="click">Adicionar aula</button>
+        <button id="view">Ver aulas</button>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div id="addMenu" class="addMenu">
+            <button class="sair" id="sair" type="click">X</button>
+
+            <input type="text" placeholder="Curso" id="curso" class="curso">
+            
+            <div class="disciplinaProfessor">
+                <input type="text" placeholder="Disciplina" id="disciplina" class="disciplina" disabled>
+                <input type="text" placeholder="Professor" id="professor" class="professor" disabled>
+            </div>
+
+            <input type="text" placeholder="Dia" id="dia" class="dia" disabled>
+
+            <div class="salaHorario">
+                <input type="text" placeholder="Sala" id="sala" class="sala" disabled>
+                <input type="time" placeholder="Horário" id="horário" class="horário" disabled>
+            </div>
+
+            <button id="add" class="add" type="submit">Adicionar</button>
+        </div>
     </div>
 
     <script src="../js/admin.js"></script>
