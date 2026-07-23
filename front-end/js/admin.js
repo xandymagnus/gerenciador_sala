@@ -15,7 +15,8 @@ const disciplina = document.getElementById("disciplina");
 const professor = document.getElementById("professor");
 const dia = document.getElementById("dia");
 const sala = document.getElementById("sala");
-const horario = document.getElementById("horario");
+const horarioInicio = document.getElementById("horarioInicio");
+const horarioFim = document.getElementById("horarioFim");
 
 
 
@@ -35,7 +36,8 @@ sair.addEventListener("click", () => {
     professor.value = "";
     dia.value = "";
     sala.value = "";
-    horario.value = "";
+    horarioInicio.value = "";
+    horarioFim.value = "";
 });
 
 
@@ -49,7 +51,8 @@ const campos = [
     professor,
     dia,
     sala,
-    horario
+    horarioInicio,
+    horarioFim
 ];
 
 // Percorre o array de campos vendo se eles tem algo digitado,
