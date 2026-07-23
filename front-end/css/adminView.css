@@ -157,7 +157,12 @@ textarea:disabled{
     height: 9vh;
 }
 
-.horario{
-    width: 43.4%;
+.horarioInicio{
+    width: 21%;
+    height: 9vh;
+}
+
+.horarioFim{
+    width: 21%;
     height: 9vh;
 }
