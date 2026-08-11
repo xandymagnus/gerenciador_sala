@@ -4,7 +4,7 @@ Sistema web para **visualização e gerenciamento de quadros de horários escola
 
 ## 👾 Versão
 
-<u>***v0.1.1***</u>
+<u>***v0.2.3***</u>
 
 ---
 
