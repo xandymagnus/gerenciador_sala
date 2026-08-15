@@ -41,15 +41,19 @@ document.querySelector(".titulo").textContent =
 // ================================
 
 async function carregarAulas(){
+    console.log("Função iniciada");
 
-const response = await fetch("/json/aulas.json")
-const aulas = await response.json()
+    const resposta = await fetch("http://localhost:3000/aulas");
+    console.log("Resposta recebida: ", resposta);
 
-processarAulas(aulas)
+    const aulas = await resposta.json();
+    console.log("Aulas: ", aulas);
+
+    processarAulas(aulas);
 
 }
 
-carregarAulas()
+carregarAulas();
 
 // ================================
 // PROCESSAR AULAS
