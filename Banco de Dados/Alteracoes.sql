@@ -9,3 +9,9 @@ ALTER COLUMN nome TYPE VARCHAR(100);
 
 ALTER TABLE professor
 ALTER COLUMN nome TYPE VARCHAR(100);
+
+ALTER TABLE disciplina
+DROP COLUMN curso_id;
+
+ALTER TABLE professor
+DROP COLUMN disciplina_id;
