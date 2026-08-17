@@ -37,7 +37,7 @@ document.querySelector(".titulo").textContent =
 `QUADRO DE HORÁRIOS - ${turnoAtual}`
 
 // ================================
-// CARREGAR JSON
+// CARREGAR BANCO DE DADOS
 // ================================
 
 async function carregarAulas(){
