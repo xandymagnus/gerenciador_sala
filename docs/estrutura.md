@@ -1,35 +1,52 @@
 # 🏛️ Estrutura
 
-## front-end/css
+## ==./front-end/css==
 Arquivos responsáveis pela estilização do sistema.
 
-- reset.css -> formata páginas HTML
+- **reset.css** -> formata páginas HTML
 
-## front-end/html
+---
+
+## ==./front-end/html==
 Páginas principais da aplicação.
 
-- index.html -> visualização do quadro de horários
-- adminView.html -> painel administrativo
+- **index.html** -> visualização do quadro de horários
+- **adminView.html** -> painel administrativo
 
-## front-end/js
+---
+
+## ==./front-end/js==
 Scripts responsáveis pela lógica da aplicação.
 
-- script.js -> renderização dos horários
-- admin.js -> gerenciamento dos dados
+- **script.js** -> renderização dos horários
+- **admin.js** -> gerenciamento dos dados
 
-## json
+---
+
+## ==./json==
 Armazena os dados do sistema.
 
-- aulas.json -> base de dados com curso, matéria, professores, sala e horários
+- **aulas.json** -> base de dados com curso, matéria, professores, sala e horários
 
-## docs
-Organiza a documentação em blocos.
+---
+
+## ==./docs==
+
+|Organiza a documentação em blocos.|
+---
+|[Arquitetura](./arquitetura.md)|
+|[Contribuição](./contribuicao.md)|
+|[Dados](./dados.md)|
+|[Estrutura](./estrutura.md)|
+|[Funcionamento](./funcionamento.md)|
+|[Indice](./indice.md)|
+
 
 ---
 
 # 🗒️ Comentários
 
-## JavaScript
+## ==JavaScript==
 
 Padrão:
 
@@ -42,3 +59,5 @@ Padrão:
 // exemplo
 
 - Dita o que executa um bloco do algoritmo (usanda normalmente em sequências); padrão de escrita em lowerCase
+
+---
