@@ -4,6 +4,7 @@
 
 // Botões
 const addBotao = document.getElementById("addButton");
+const viewBotao = document.getElementById("viewButton")
 const sair = document.getElementById("sair");
 
 // Divs
@@ -65,3 +66,7 @@ campos.forEach((campo, indice) => {
         }
     });
 });
+
+viewBotao.addEventListener("click", () => {
+    
+})
