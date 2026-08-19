@@ -4,11 +4,13 @@
 
 // Botões
 const addBotao = document.getElementById("addButton");
+const verAulas = document.getElementById("view")
 const enviarAula = document.getElementById("enviarAula")
-const sair = document.getElementById("sair");
+const sair = document.querySelectorAll(".sair");
 
 // Divs
 const overlay = document.getElementById("overlay");
+const editaAula = document.querySelector(".edita-aula")
 
 //Inputs
 const curso = document.getElementById("curso");
@@ -29,19 +31,25 @@ addBotao.addEventListener("click", () => {
     overlay.classList.add("mostrar");
 });
 
+verAulas.addEventListener("click", () => {
+    editaAula.classList.add("mostrar");
+})
+
 // Esconde
-sair.addEventListener("click", () => {
-    overlay.classList.remove("mostrar");
-    curso.value = "";
-    disciplina.value = "";
-    professor.value = "";
-    dia.value = "";
-    sala.value = "";
-    horarioInicio.value = "";
-    horarioFim.value = "";
-});
 
-
+sair.forEach(btnSair => {
+    btnSair.addEventListener("click", () => {
+        overlay.classList.remove("mostrar");
+        editaAula.classList.remove("mostrar");
+        curso.value = "";
+        disciplina.value = "";
+        professor.value = "";
+        dia.value = "";
+        sala.value = "";
+        horarioInicio.value = "";
+        horarioFim.value = "";
+    })
+})
 
 // ================================
 // LIBERANDO OS INPUTS
