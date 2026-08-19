@@ -4,7 +4,7 @@
 
 // Botões
 const addBotao = document.getElementById("addButton");
-const viewBotao = document.getElementById("viewButton")
+const enviarAula = document.getElementById("enviarAula")
 const sair = document.getElementById("sair");
 
 // Divs
@@ -67,6 +67,39 @@ campos.forEach((campo, indice) => {
     });
 });
 
-viewBotao.addEventListener("click", () => {
+
+// ================================
+// ENVIANDO AS AULAS
+// ================================
+enviarAula.addEventListener("click", async () => {
+    // Variáveis com os valores enviados
+    const cursoValor = curso.value;
+    const disciplinaValor = disciplina.value;
+    const professorValor = professor.value;
+    const diaValor = dia.value;
+    const salaValor = sala.value;
+    const horarioInicioValor = horarioInicio.value;
+    const horarioFimValor = horarioFim.value;
+
+    // Aqui o navegador manda um único JSON com os valores digitados
+    const envio = await fetch("http://localhost:3000/aulas", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({
+            curso: cursoValor,
+            disciplina: disciplinaValor,
+            professor: professorValor,
+            dia: diaValor,
+            sala: salaValor,
+            horarioInicio: horarioInicioValor,
+            horarioFim: horarioFimValor
+        })
+    });
     
-})
+    const dados = await envio.json();
+
+    console.log(dados);
+});

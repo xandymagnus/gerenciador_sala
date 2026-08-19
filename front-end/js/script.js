@@ -37,7 +37,7 @@ document.querySelector(".titulo").textContent =
 `QUADRO DE HORÁRIOS - ${turnoAtual}`
 
 // ================================
-// CARREGAR JSON
+// CARREGAR BANCO DE DADOS
 // ================================
 
 async function carregarAulas(){
@@ -51,6 +51,7 @@ async function carregarAulas(){
 
     processarAulas(aulas);
 
+    
 }
 
 carregarAulas();
@@ -61,64 +62,61 @@ carregarAulas();
 
 function processarAulas(aulas){
 
-const container = document.querySelector("ul")
+    const container = document.querySelector("ul")
 
-container.innerHTML = ""
+    container.innerHTML = ""
 
-const aulasValidas = aulas.filter(aula => {
+    const aulasValidas = aulas.filter(aula => {
+        
+        if(aula.dia !== nomeDia) return false
 
-if(aula.dia !== nomeDia) return false
+        const inicio = converterHorario(aula.horarioinicio)
+        const fim = converterHorario(aula.horariofim)
 
-const inicio = converterHorario(aula.inicio)
-const fim = converterHorario(aula.fim)
+        const cincoHorasAntes = new Date(inicio)
+        cincoHorasAntes.setHours(inicio.getHours() - HORAS_ANTES)
+        
+        // turno
+        
+        if(turnoAtual === "MANHA" && inicio.getHours() >= 18) return false
+        if(turnoAtual === "NOITE" && inicio.getHours() < 18) return false
 
-const cincoHorasAntes = new Date(inicio)
-cincoHorasAntes.setHours(inicio.getHours() - HORAS_ANTES)
+        // aula já passou
 
-// turno
+        if(agora > fim) return false
 
-if(turnoAtual === "MANHA" && inicio.getHours() >= 18) return false
-if(turnoAtual === "NOITE" && inicio.getHours() < 18) return false
+        // aula ainda muito longe
 
-// aula já passou
+        if(agora < cincoHorasAntes) return false
 
-if(agora > fim) return false
-
-// aula ainda muito longe
-
-if(agora < cincoHorasAntes) return false
-
-return true
-
-})
-
-aulasValidas.forEach(aula => {
-
-const li = document.createElement("li")
-
-li.innerHTML = `
-<div class="aula">
-
-<h2 class="curso">${formatarNome(aula.curso)}</h2>
-
-<h2 class="disciplina">${formatarNome(aula.disciplina)}</h2>
-
-<h2 class="prof">${formatarNome(aula.professor)}</h2>
-
-<h2 class="sala">${formatarNome(aula.sala)}</h2>
-
-<h2 class="horario">${aula.inicio} - ${aula.fim}</h2>
-
-</div>
-`
-
-container.appendChild(li)
+        return true
 
 })
+    aulasValidas.forEach(aula => {
+        
+        const li = document.createElement("li")
 
-setTimeout(() => {
-    iniciarRotacao()
-}, 50)
+        li.innerHTML = `
+            <div class="aula">
+
+            <h2 class="curso">${formatarNome(aula.curso)}</h2>
+
+            <h2 class="disciplina">${formatarNome(aula.disciplina)}</h2>
+
+            <h2 class="prof">${formatarNome(aula.professor)}</h2>
+
+            <h2 class="sala">${formatarNome(aula.sala)}</h2>
+            
+            <h2 class="horario">${aula.horarioinicio} - ${aula.horariofim}</h2>
+            
+            </div>
+            `
+            container.appendChild(li)
+    });
+
+    setTimeout(() => {
+        iniciarRotacao()
+    }, 50)
 
 }
 

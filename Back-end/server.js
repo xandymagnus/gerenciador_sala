@@ -12,7 +12,8 @@ const app = express();
 // .use: adiciona um Middleware(código que o Express usa durante o processamento das requisições) ao Express
 // cors: Middleware fornecido pela própria biblioteca
 app.use(cors());
-
+// express.json: ferramente para que o Express possa interpretar JSON
+app.use(express.json());
 
 // "app.get" = Cria uma rota no servidor pra responder requisições do tipo GET
 // "/" = Página inicial, é onde acessaremos
@@ -45,3 +46,89 @@ app.get("/aulas", async (req, res) => {
         res.status(500).json({ erro: "Erro ao buscar aulas" });
     }
 });
+
+// Rota para que seja possível enviar dados ao banco
+app.post("/aulas", async (req, res) => {
+    // Pegando os valores enviados pelo HTML
+    const {
+        curso,
+        disciplina,
+        professor,
+        dia,
+        sala,
+        horarioInicio,
+        horarioFim
+    } = req.body;
+
+    // Rota conjunta para que a transação possa funcionar(pega uma conexão com o pool para ele poder usar)
+    const client = await pool.connect();
+    
+    // Aqui ele vai tentar pegar todas as informações para cadastrar a aula
+    try{
+        // Comando que inicia a transação
+        await client.query("BEGIN");
+
+        // Verificando se cada elemento já existe ou precisa ser criado e pegando os IDs
+        const cursoID = await buscarOuCriar(client, "curso", "nome", curso);
+        const disciplinaID = await buscarOuCriar(client, "disciplina", "nome", disciplina);
+        const professorID = await buscarOuCriar(client, "professor", "nome", professor);
+        const diaID = await buscarOuCriar(client, "dia", "dia", dia);
+        const salaID = await buscarOuCriar(client, "sala", "sala", sala);
+
+        // Inserindo a aula
+        const resultado = await client.query('INSERT INTO aulas(curso_id, disciplina_id, professor_id, dia_id, sala_id, horarioinicio, horariofim) VALUES ($1, $2, $3, $4, $5, $6, $7)', 
+        [
+            cursoID,
+            disciplinaID,
+            professorID,
+            diaID,
+            salaID,
+            horarioInicio,
+            horarioFim
+        ]);
+
+        // Aceita as operações enviadas
+        await client.query("COMMIT");
+        
+        // Avisa no terminal que a aula foi cadastrada
+        console.log("Aula cadastrada!");
+        res.json(resultado.rows[0]);
+
+    } catch(erro){
+        // Caso houver algum erro, defaz todas as oprações enviadas
+        await client.query("ROLLBACK");
+
+        console.error(erro);
+        
+        res.status(500).json({
+            erro: "Erro ao cadastrar curso"
+        });
+    } finally{
+        // Devolve a conexão para o pool
+        client.release();
+    }
+
+});
+
+// Função que vai buscar pelo item digitado e vai verificar se ele existe ou se precisa ser criado
+async function buscarOuCriar(client, tabela, coluna, valor){
+    const sql = `SELECT id FROM ${tabela} WHERE ${coluna} = $1`;
+
+    console.log(sql);
+    console.log("Valor:", valor);
+    // Busca na tabela selecionado por um elemento igual ao digitado
+    // ${}: template literals do JavaScript(basicamente uma concatenação), estamos usando para monta o SQL
+    // $1: representa o valor, é o parâmetro que usamos para fazer a busca
+    const resultado = await client.query(`SELECT id FROM ${tabela} WHERE ${coluna} = ($1)`, [valor]);
+
+    // Se encotrar(resultado for maior que 0), retorna id daquele elemento
+    if(resultado.rows.length > 0){
+        return resultado.rows[0].id
+    }
+
+    // Caso não encontre algum elemento, ele insere naquela tabela o elemento pedido e retorna o seu id
+    const novo = await client.query(`INSERT INTO ${tabela} (${coluna}) VALUES ($1) RETURNING id`, [valor]);
+
+    // Aqui ele retorna o id do elemento para a função
+    return novo.rows[0].id;
+}
