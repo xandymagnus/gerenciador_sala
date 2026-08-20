@@ -167,3 +167,12 @@ textarea:disabled{
     width: 21%;
     height: 9vh;
 }
+
+.busca-aula {
+    display: flex;
+}
+
+.busca-aula .btn-buscar-aula {
+
+    width: 50%;
+}
