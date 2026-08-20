@@ -2,15 +2,17 @@
 // PUXANDO INFORMAÇÕES
 // ================================
 
-// Botões
+//Botões
 const addBotao = document.getElementById("addButton");
-const verAulas = document.getElementById("view")
 const enviarAula = document.getElementById("enviarAula")
 const sair = document.querySelectorAll(".sair");
 
-// Divs
+const verAulas = document.getElementById("view")
+const buscaAula = document.querySelector(".btn-buscar-aula");
+
+//Divs
 const overlay = document.getElementById("overlay");
-const editaAula = document.querySelector(".edita-aula")
+const editaAula = document.querySelector(".edita-aula");
 
 //Inputs
 const curso = document.getElementById("curso");
@@ -21,10 +23,13 @@ const sala = document.getElementById("sala");
 const horarioInicio = document.getElementById("horarioInicio");
 const horarioFim = document.getElementById("horarioFim");
 
+const inputBusca = document.getElementById("busca");
 
+//Forms
+const formBuscaAula = document.getElementById("form-busca-aula");
 
 // ================================
-// CHAMANDO A TELA DE ADIÇÃO
+// CHAMANDO A TELAS
 // ================================
 // Mostra
 addBotao.addEventListener("click", () => {
@@ -110,4 +115,15 @@ enviarAula.addEventListener("click", async () => {
     const dados = await envio.json();
 
     console.log(dados);
+});
+
+//================================
+//  BOTOES DE BUSCA
+//================================
+formBuscaAula.addEventListener("submit", (event) => {
+    event.preventDefault()
+
+    const pesquisa = inputBusca.value;
+    pesquisa.value = "";
+    alert(pesquisa);
 });
