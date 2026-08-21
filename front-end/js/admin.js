@@ -125,5 +125,10 @@ formBuscaAula.addEventListener("submit", (event) => {
 
     const pesquisa = inputBusca.value;
     pesquisa.value = "";
-    alert(pesquisa);
+    if (pesquisa.value != "") {
+        alert(pesquisa);
+    }
+    else {
+        alert("Filtre alguma coisa")
+    }
 });
