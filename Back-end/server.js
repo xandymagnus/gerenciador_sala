@@ -47,6 +47,64 @@ app.get("/aulas", async (req, res) => {
     }
 });
 
+// Rotas para acessar respectivamente curso, disciplina, professor, dia e sala
+// CURSOS
+app.get("/cursos", async (req, res) => {
+    try{
+        const cursoDados = await pool.query("SELECT nome FROM curso;");
+        res.json(cursoDados.rows);
+    } catch{
+        console.error(erro);
+        res.status(500).json({erro: "Erro ao buscar dados"});
+    } 
+});
+
+// DISCIPLINAS
+app.get("/disciplinas", async (req, res) => {
+    try{
+        const disciplinaDados = await pool.query("SELECT nome FROM disciplina;");
+        res.json(disciplinaDados.rows,);
+    } catch{
+        console.error(erro);
+        res.status(500).json({erro: "Erro ao buscar dados"});
+    } 
+});
+
+// PROFESSORES
+app.get("/professores", async (req, res) => {
+    try{
+        const professorDados = await pool.query("SELECT nome FROM professor;");
+        res.json(professorDados.rows,);
+    } catch{
+        console.error(erro);
+        res.status(500).json({erro: "Erro ao buscar dados"});
+    } 
+});
+
+// DIAS
+app.get("/dias", async (req, res) => {
+    try{
+        const diaDados = await pool.query("SELECT dia FROM dia;");
+
+        res.json(diaDados.rows,);
+    } catch{
+        console.error(erro);
+        res.status(500).json({erro: "Erro ao buscar dados"});
+    } 
+});
+
+// SALAS
+app.get("/salas", async (req, res) => {
+    try{
+        const salaDados = await pool.query("SELECT sala FROM sala;");
+        res.json(salaDados.rows);
+    } catch{
+        console.error(erro);
+        res.status(500).json({erro: "Erro ao buscar dados"});
+    } 
+});
+
+
 // Rota para que seja possível enviar dados ao banco
 app.post("/aulas", async (req, res) => {
     // Pegando os valores enviados pelo HTML

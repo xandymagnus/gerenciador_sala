@@ -31,17 +31,26 @@
         <div id="addMenu" class="addMenu">
             <button class="sair" id="sair" type="click">X</button>
 
-            <input type="text" placeholder="Curso" id="curso" class="curso">
-            
+            <input type="text" placeholder="Curso" id="curso" class="curso" list="listaCurso">
+            <datalist id="listaCurso">
+                <option value="Genshin"></option>
+            </datalist>
+
             <div class="disciplinaProfessor">
-                <input type="text" placeholder="Disciplina" id="disciplina" class="disciplina" disabled>
-                <input type="text" placeholder="Professor" id="professor" class="professor" disabled>
+                <input type="text" placeholder="Disciplina" id="disciplina" class="disciplina" list="listaDisciplina" disabled>
+                <datalist id="listaDisciplina"></datalist>    
+                
+                <input type="text" placeholder="Professor" id="professor" class="professor" list="listaProfessor" disabled>
+                <datalist id="listaProfessor"></datalist>
             </div>
 
-            <input type="text" placeholder="Dia" id="dia" class="dia" disabled>
+            <input type="text" placeholder="Dia" id="dia" class="dia" list="listaDia" disabled>
+            <datalist id="listaDia"></datalist>
 
             <div class="salaHorario">
-                <input type="text" placeholder="Sala" id="sala" class="sala" disabled>
+                <input type="text" placeholder="Sala" id="sala" class="sala" list="listaSala" disabled>
+                <datalist id="listaSala"></datalist>
+                
                 <input type="time" placeholder="Horário" id="horarioInicio" class="horarioInicio" disabled>
                 <input type="time" placeholder="Horário" id="horarioFim" class="horarioFim" disabled>
             </div>

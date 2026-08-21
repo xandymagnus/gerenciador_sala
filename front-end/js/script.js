@@ -51,7 +51,7 @@ async function carregarAulas(){
 
     processarAulas(aulas);
 
-    
+
 }
 
 carregarAulas();

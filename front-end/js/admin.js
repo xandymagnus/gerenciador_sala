@@ -69,6 +69,36 @@ campos.forEach((campo, indice) => {
 
 
 // ================================
+// PUXANDO DADOS PARA O DATALIST
+// ================================
+async function puxarDados(){
+    console.log("Função iniciada");
+  
+    const cursoDados = await fetch("http://localhost:3000/cursos");
+
+    const cursosDadosResposta = await cursoDados.json();    
+
+    processarDados(cursosDadosResposta);
+}
+
+puxarDados();
+
+function processarDados(dados){
+
+    const datalist = document.querySelector("#listaCurso");
+
+    datalist.innerHTML = ""
+
+    dados.forEach(dado =>{
+        const option = document.createElement("option");
+
+        option.value = dado.nome;
+
+        datalist.appendChild(option);
+    });
+}
+
+// ================================
 // ENVIANDO AS AULAS
 // ================================
 enviarAula.addEventListener("click", async () => {
