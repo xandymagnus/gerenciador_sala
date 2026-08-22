@@ -183,7 +183,30 @@ enviarAula.addEventListener("click", async () => {
 
     // Verifica se o envio foi bem sucedido, se sim, executa o bloco
     if(envio.ok){
+        // Aviso de que a aula foi adicionada com sucesso
+        alert("Aula adicionada com sucesso!");
+
+        // Limpa os campos
+        curso.value = "";
+        disciplina.value = "";
+        professor.value = "";
+        dia.value = "";
+        sala.value = "";
+        horarioInicio.value = "";
+        horarioFim.value = "";
+
+        // Bloqueia novamente os campos
+        disciplina.disabled = true;
+        professor.disabled = true;
+        dia.disabled = true;
+        sala.disabled = true;
+        horarioInicio.disabled = true;
+        horarioFim.disabled = true;
+
+        // Atualiza os datalist
         await puxarDados();
+    } else{
+        alert(dados.erro || "Erro ao adicionar aula.")
     }
 });
 
