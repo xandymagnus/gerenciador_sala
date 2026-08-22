@@ -87,25 +87,60 @@ campos.forEach((campo, indice) => {
 async function puxarDados(){
     console.log("Função iniciada");
   
-    const cursoDados = await fetch("http://localhost:3000/cursos");
+    const [
+        cursoDados,
+        disciplinaDados,
+        professorDados,
+        diaDados,
+        salaDados
 
-    const cursosDadosResposta = await cursoDados.json();    
+        // Promise.all(): vai fazer com que todas as requisições aconteçam juntas
+    ] = await Promise.all([
+        fetch("http://localhost:3000/cursos"),
+        fetch("http://localhost:3000/disciplinas"),
+        fetch("http://localhost:3000/professores"),
+        fetch("http://localhost:3000/dias"),
+        fetch("http://localhost:3000/salas")
+    ]);
 
-    processarDados(cursosDadosResposta);
+    const [
+        cursosDadosResposta,
+        disciplinaDadosResposta,
+        professorDadosResposta,
+        diaDadosResposta,
+        salaDadosResposta
+
+    ] = await Promise.all([
+        cursoDados.json(),
+        disciplinaDados.json(),
+        professorDados.json(),
+        diaDados.json(),
+        salaDados.json()
+    ]);    
+
+    processarDados(cursosDadosResposta, "listaCurso", "nome");
+    processarDados(disciplinaDadosResposta, "listaDisciplina", "nome");
+    processarDados(professorDadosResposta, "listaProfessor", "nome");
+    processarDados(diaDadosResposta, "listaDia", "dia");
+    processarDados(salaDadosResposta, "listaSala", "sala");
 }
 
 puxarDados();
 
-function processarDados(dados){
+function processarDados(dados, idDatalist, coluna){
 
-    const datalist = document.querySelector("#listaCurso");
+    console.log("Datalist procurado: ", idDatalist);
+
+    const datalist = document.getElementById(idDatalist);
+
+    console.log("Elemento procurado: ", datalist);
 
     datalist.innerHTML = ""
 
     dados.forEach(dado =>{
         const option = document.createElement("option");
 
-        option.value = dado.nome;
+        option.value = dado[coluna];
 
         datalist.appendChild(option);
     });
@@ -145,6 +180,11 @@ enviarAula.addEventListener("click", async () => {
     const dados = await envio.json();
 
     console.log(dados);
+
+    // Verifica se o envio foi bem sucedido, se sim, executa o bloco
+    if(envio.ok){
+        await puxarDados();
+    }
 });
 
 //================================

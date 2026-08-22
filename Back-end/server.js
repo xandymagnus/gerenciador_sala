@@ -53,7 +53,7 @@ app.get("/cursos", async (req, res) => {
     try{
         const cursoDados = await pool.query("SELECT nome FROM curso;");
         res.json(cursoDados.rows);
-    } catch{
+    } catch(erro){
         console.error(erro);
         res.status(500).json({erro: "Erro ao buscar dados"});
     } 
@@ -63,8 +63,8 @@ app.get("/cursos", async (req, res) => {
 app.get("/disciplinas", async (req, res) => {
     try{
         const disciplinaDados = await pool.query("SELECT nome FROM disciplina;");
-        res.json(disciplinaDados.rows,);
-    } catch{
+        res.json(disciplinaDados.rows);
+    } catch(erro){
         console.error(erro);
         res.status(500).json({erro: "Erro ao buscar dados"});
     } 
@@ -74,8 +74,8 @@ app.get("/disciplinas", async (req, res) => {
 app.get("/professores", async (req, res) => {
     try{
         const professorDados = await pool.query("SELECT nome FROM professor;");
-        res.json(professorDados.rows,);
-    } catch{
+        res.json(professorDados.rows);
+    } catch(erro){
         console.error(erro);
         res.status(500).json({erro: "Erro ao buscar dados"});
     } 
@@ -86,8 +86,8 @@ app.get("/dias", async (req, res) => {
     try{
         const diaDados = await pool.query("SELECT dia FROM dia;");
 
-        res.json(diaDados.rows,);
-    } catch{
+        res.json(diaDados.rows);
+    } catch(erro){
         console.error(erro);
         res.status(500).json({erro: "Erro ao buscar dados"});
     } 
@@ -98,7 +98,7 @@ app.get("/salas", async (req, res) => {
     try{
         const salaDados = await pool.query("SELECT sala FROM sala;");
         res.json(salaDados.rows);
-    } catch{
+    } catch(erro){
         console.error(erro);
         res.status(500).json({erro: "Erro ao buscar dados"});
     } 
@@ -159,7 +159,7 @@ app.post("/aulas", async (req, res) => {
         console.error(erro);
         
         res.status(500).json({
-            erro: "Erro ao cadastrar curso"
+            erro: "Erro ao cadastraraula"
         });
     } finally{
         // Devolve a conexão para o pool
