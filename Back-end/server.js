@@ -134,7 +134,7 @@ app.post("/aulas", async (req, res) => {
         const salaID = await buscarOuCriar(client, "sala", "sala", sala);
 
         // Inserindo a aula
-        const resultado = await client.query('INSERT INTO aulas(curso_id, disciplina_id, professor_id, dia_id, sala_id, horarioinicio, horariofim) VALUES ($1, $2, $3, $4, $5, $6, $7)', 
+        const resultado = await client.query('INSERT INTO aulas(curso_id, disciplina_id, professor_id, dia_id, sala_id, horarioinicio, horariofim) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING*', 
         [
             cursoID,
             disciplinaID,
