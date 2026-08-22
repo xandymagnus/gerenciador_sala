@@ -24,7 +24,7 @@
 
     <div class="container_acoes">
         <button id="addButton" type="click">Adicionar aula</button>
-        <button id="view">Ver aulas</button>
+        <button id="view" type="click">Ver aulas</button>
     </div>
 
     <div class="overlay" id="overlay">
@@ -56,6 +56,18 @@
             </div>
 
             <button id="enviarAula" class="enviarAula" type="submit">Adicionar</button>
+        </div>
+    </div>
+
+    <div class="edita-aula overlay">
+        <div class="addMenu busca-aula">
+            <button class="sair" id="sair" type="click">X</button>
+            <form class="form-busca-aula" id="form-busca-aula">
+                <label for="busca">Pesquisar:</label>
+                <input type="search" id="busca" name="q" placeholder="Digite o que procura...">
+                <button type="submit" class="btn-buscar-aula">Buscar</button>
+            </form>
+            
         </div>
     </div>
 

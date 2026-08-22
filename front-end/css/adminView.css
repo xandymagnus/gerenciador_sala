@@ -101,6 +101,7 @@ button:hover{
     border-radius: 10px;
 }
 
+
 input{
     margin-top: 1%;
     border-radius: 15px;
@@ -165,4 +166,13 @@ textarea:disabled{
 .horarioFim{
     width: 21%;
     height: 9vh;
+}
+
+.busca-aula {
+    display: flex;
+}
+
+.busca-aula .btn-buscar-aula {
+
+    width: 50%;
 }

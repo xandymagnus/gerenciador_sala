@@ -4,7 +4,7 @@ Sistema web para **visualização e gerenciamento de quadros de horários escola
 
 ## 👾 Versão
 
-<u>***v0.2.3***</u>
+<u>***v0.7.0***</u>
 
 ---
 
@@ -18,7 +18,9 @@ Sistema web para **visualização e gerenciamento de quadros de horários escola
 
 ## Backend
 
-* Em processo...
+* JavaScript
+* Nodejs
+* SQL
 
 ## Outras ferramentas
 
@@ -49,23 +51,39 @@ Sistema web para **visualização e gerenciamento de quadros de horários escola
 
 # 📂 Estrutura do Projeto
 
-```
-GERENCIADOR_SALA/
+
+# Estrutura de Arquivos
+
+```text
+Projeto
+│
+├── Back-end/
+│   ├── node_modules/
+│   ├── db.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
+│
+├── Banco de Dados/
+│   ├── Alteracoes.sql
+│   ├── Consultas.sql
+│   ├── Create.sql
+│   └── Insert.sql
 │
 ├── docs/
-|   ├── arquitetura.md
-|   ├── contribuicao.md
-|   ├── dados.md
-|   ├── estrutura.md
-|   ├── funcionamento.md
-|   └── indice.md
-|
+│   ├── arquitetura.md
+│   ├── contribuicao.md
+│   ├── dados.md
+│   ├── estrutura.md
+│   ├── funcionamento.md
+│   └── indice.md
+│
 ├── front-end/
 │   │
 │   ├── css/
-│   │   ├── adminview.css
-│   │   ├── gerenciador_sala.css
-│   │   └── reset.css
+│   │   ├── adminView.css
+│   │   ├── reset.css
+│   │   └── style.css
 │   │
 │   ├── html/
 │   │   ├── adminView.html
@@ -73,7 +91,6 @@ GERENCIADOR_SALA/
 │   │
 │   ├── imagens/
 │   │   ├── logo_css_branca.png
-│   │   ├── logo_css.png
 │   │   └── logo_icon.png
 │   │
 │   └── js/
@@ -83,8 +100,10 @@ GERENCIADOR_SALA/
 ├── json/
 │   └── aulas.json
 │
+├── LICENSE.md
 └── README.md
 ```
+
 
 # 🔄 Funcionamento
 
@@ -95,13 +114,19 @@ GERENCIADOR_SALA/
 
 ---
 
-# 📌 Melhorias Futuras
+## 📌 [DOCUMENTAÇÃO](./docs/indice.md)
 
-* [ ] Adicionar seleção de aulas no painel administrativo
-* [ ] Indicador de páginas
-* [ ] Relógio em tempo real
-* [x] Filtros de: ordem alfabética e horários
-* [x] Atualização em tempo real
+---
+
+## ⚖️ Licença
+
+O código-fonte deste projeto é disponibilizado sob os termos da licença
+definida no arquivo [LICENSE.md](./LICENSE.md).
+
+A licença do código não concede direitos sobre o nome, logotipo,
+identidade visual ou outros materiais gráficos do projeto.
+
+Consulte o arquivo `LICENSE.md` para obter os termos completos.
 
 ---
 

@@ -2,13 +2,17 @@
 // PUXANDO INFORMAÇÕES
 // ================================
 
-// Botões
+//Botões
 const addBotao = document.getElementById("addButton");
 const enviarAula = document.getElementById("enviarAula")
-const sair = document.getElementById("sair");
+const sair = document.querySelectorAll(".sair");
 
-// Divs
+const verAulas = document.getElementById("view")
+const buscaAula = document.querySelector(".btn-buscar-aula");
+
+//Divs
 const overlay = document.getElementById("overlay");
+const editaAula = document.querySelector(".edita-aula");
 
 //Inputs
 const curso = document.getElementById("curso");
@@ -19,29 +23,38 @@ const sala = document.getElementById("sala");
 const horarioInicio = document.getElementById("horarioInicio");
 const horarioFim = document.getElementById("horarioFim");
 
+const inputBusca = document.getElementById("busca");
 
+//Forms
+const formBuscaAula = document.getElementById("form-busca-aula");
 
 // ================================
-// CHAMANDO A TELA DE ADIÇÃO
+// CHAMANDO A TELAS
 // ================================
 // Mostra
 addBotao.addEventListener("click", () => {
     overlay.classList.add("mostrar");
 });
 
+verAulas.addEventListener("click", () => {
+    editaAula.classList.add("mostrar");
+})
+
 // Esconde
-sair.addEventListener("click", () => {
-    overlay.classList.remove("mostrar");
-    curso.value = "";
-    disciplina.value = "";
-    professor.value = "";
-    dia.value = "";
-    sala.value = "";
-    horarioInicio.value = "";
-    horarioFim.value = "";
-});
 
-
+sair.forEach(btnSair => {
+    btnSair.addEventListener("click", () => {
+        overlay.classList.remove("mostrar");
+        editaAula.classList.remove("mostrar");
+        curso.value = "";
+        disciplina.value = "";
+        professor.value = "";
+        dia.value = "";
+        sala.value = "";
+        horarioInicio.value = "";
+        horarioFim.value = "";
+    })
+})
 
 // ================================
 // LIBERANDO OS INPUTS
@@ -132,4 +145,20 @@ enviarAula.addEventListener("click", async () => {
     const dados = await envio.json();
 
     console.log(dados);
+});
+
+//================================
+//  BOTOES DE BUSCA
+//================================
+formBuscaAula.addEventListener("submit", (event) => {
+    event.preventDefault()
+
+    const pesquisa = inputBusca.value;
+    pesquisa.value = "";
+    if (pesquisa.value != "") {
+        alert(pesquisa);
+    }
+    else {
+        alert("Filtre alguma coisa")
+    }
 });
