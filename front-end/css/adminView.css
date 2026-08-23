@@ -170,9 +170,14 @@ textarea:disabled{
 
 .busca-aula {
     display: flex;
+    justify-content: flex-start;
+    width: 85%;
 }
 
 .busca-aula .btn-buscar-aula {
-
     width: 50%;
+}
+
+.pesquisa {
+    justify-content: flex-start;
 }
