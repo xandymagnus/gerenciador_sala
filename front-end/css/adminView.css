@@ -99,6 +99,7 @@ button:hover{
     top: 0%;
     right: 0%;
     border-radius: 10px;
+    margin: 0.5rem;
 }
 
 
@@ -179,5 +180,5 @@ textarea:disabled{
 }
 
 .pesquisa {
-    justify-content: flex-start;
+    margin-top: 1rem;
 }
