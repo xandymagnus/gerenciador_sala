@@ -134,6 +134,7 @@ app.post("/aulas", async (req, res) => {
         const salaID = await buscarOuCriar(client, "sala", "sala", sala);
 
         // Inserindo a aula
+        // OBS: Sempre que o usuário for enviar algo, tem que ser feito parametrizando o comando SQL, porque assim o que o usuário enviar vai ser tratado com dado, não como comando SQL!!!
         const resultado = await client.query('INSERT INTO aulas(curso_id, disciplina_id, professor_id, dia_id, sala_id, horarioinicio, horariofim) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING*', 
         [
             cursoID,
