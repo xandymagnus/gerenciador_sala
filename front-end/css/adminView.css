@@ -99,6 +99,7 @@ button:hover{
     top: 0%;
     right: 0%;
     border-radius: 10px;
+    margin: 0.5rem;
 }
 
 
@@ -170,9 +171,14 @@ textarea:disabled{
 
 .busca-aula {
     display: flex;
+    justify-content: flex-start;
+    width: 85%;
 }
 
 .busca-aula .btn-buscar-aula {
-
     width: 50%;
+}
+
+.pesquisa {
+    margin-top: 1rem;
 }
