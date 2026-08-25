@@ -31,18 +31,33 @@ app.listen(3000, () => {
 
 // Cria uma rota GET para acessar as aulas de forma assícrona
 app.get("/aulas", async (req, res) => {
-    // try: vai tentar rodar o código dentro do seu bloco
-    try{
-        // await: vai esperar o PostgreSQL responder
-        // pool.query: vai mandar uma mensagem ao banco
-        const resultado = await pool.query("SELECT curso.nome AS curso,disciplina.nome AS disciplina,professor.nome AS professor,dia.dia AS dia,	sala.sala AS sala,aulas.horarioinicio,	aulas.horariofim FROM aulas JOIN curso	ON aulas.curso_id = curso.id JOIN disciplina	ON aulas.disciplina_id = disciplina.id JOIN professor	ON aulas.professor_id = professor.id JOIN dia	ON aulas.dia_id = dia.id JOIN sala	ON aulas.sala_id = sala.id;");
-        // res.json: vai mandar como JSON a resposta que o PostgreSQL deu
+    try {
+
+        const resultado = await pool.query(`
+            SELECT
+                aulas.id,
+                curso.nome AS curso,
+                disciplina.nome AS disciplina,
+                professor.nome AS professor,
+                dia.dia AS dia,
+                sala.sala AS sala,
+                aulas.horarioinicio,
+                aulas.horariofim
+
+            FROM aulas
+            JOIN curso ON aulas.curso_id = curso.id
+            JOIN disciplina ON aulas.disciplina_id = disciplina.id
+            JOIN professor ON aulas.professor_id = professor.id
+            JOIN dia ON aulas.dia_id = dia.id
+            JOIN sala ON aulas.sala_id = sala.id
+
+            ORDER BY dia.id, aulas.horarioinicio;
+        `);
+
         res.json(resultado.rows);
-    // catch: caso o try falhe por qualquer motivo, ele vai rodar o seu bloco
-    } catch(erro){
-        // Mostra o erro no terminal
+
+    } catch (erro) {
         console.error(erro);
-        // Essa linha serve para informar caso o banco tenha algum problema
         res.status(500).json({ erro: "Erro ao buscar aulas" });
     }
 });
@@ -127,11 +142,27 @@ app.post("/aulas", async (req, res) => {
         await client.query("BEGIN");
 
         // Verificando se cada elemento já existe ou precisa ser criado e pegando os IDs
-        const cursoID = await buscarOuCriar(client, "curso", "nome", curso);
-        const disciplinaID = await buscarOuCriar(client, "disciplina", "nome", disciplina);
-        const professorID = await buscarOuCriar(client, "professor", "nome", professor);
-        const diaID = await buscarOuCriar(client, "dia", "dia", dia);
-        const salaID = await buscarOuCriar(client, "sala", "sala", sala);
+        const cursoID = await buscarOuCriar(
+            client,
+            "curso",
+            "nome",
+            curso
+        );
+
+        const disciplinaID = await buscarOuCriarDisciplina(
+            client,
+            disciplina,
+            cursoID
+        );
+
+        const professorID = await buscarOuCriarProfessor(
+            client,
+            professor,
+            disciplinaID
+        );
+
+        const diaID = await buscarOuCriar(client,"dia","dia",dia);
+        const salaID = await buscarOuCriar(client,"sala","sala",sala);
 
         // Inserindo a aula
         // OBS: Sempre que o usuário for enviar algo, tem que ser feito parametrizando o comando SQL, porque assim o que o usuário enviar vai ser tratado com dado, não como comando SQL!!!
@@ -169,6 +200,99 @@ app.post("/aulas", async (req, res) => {
 
 });
 
+app.put("/aulas/:id", async (req, res) => {
+
+    const { id } = req.params;
+
+    const {
+        curso,
+        disciplina,
+        professor,
+        dia,
+        sala,
+        horarioInicio,
+        horarioFim
+    } = req.body;
+
+    const client = await pool.connect();
+
+    try {
+
+        await client.query("BEGIN");
+
+        const cursoID = await buscarOuCriar(client, "curso", "nome", curso);
+        const disciplinaID = await buscarOuCriar(client, "disciplina", "nome", disciplina);
+        const professorID = await buscarOuCriar(client, "professor", "nome", professor);
+        const diaID = await buscarOuCriar(client, "dia", "dia", dia);
+        const salaID = await buscarOuCriar(client, "sala", "sala", sala);
+
+        const resultado = await client.query(
+            `UPDATE aulas
+             SET curso_id=$1,
+                 disciplina_id=$2,
+                 professor_id=$3,
+                 dia_id=$4,
+                 sala_id=$5,
+                 horarioinicio=$6,
+                 horariofim=$7
+             WHERE id=$8
+             RETURNING *`,
+            [
+                cursoID,
+                disciplinaID,
+                professorID,
+                diaID,
+                salaID,
+                horarioInicio,
+                horarioFim,
+                id
+            ]
+        );
+
+        await client.query("COMMIT");
+
+        res.json(resultado.rows[0]);
+
+    } catch (erro) {
+
+        await client.query("ROLLBACK");
+
+        console.error(erro);
+
+        res.status(500).json({
+            erro: "Erro ao editar aula."
+        });
+
+    } finally {
+        client.release();
+    }
+});
+
+app.delete("/aulas/:id", async (req, res) => {
+
+    const { id } = req.params;
+
+    try {
+
+        await pool.query(
+            "DELETE FROM aulas WHERE id = $1",
+            [id]
+        );
+
+        res.json({
+            mensagem: "Aula excluída com sucesso."
+        });
+
+    } catch (erro) {
+
+        console.error(erro);
+
+        res.status(500).json({
+            erro: "Erro ao excluir aula."
+        });
+    }
+});
+
 // Função que vai buscar pelo item digitado e vai verificar se ele existe ou se precisa ser criado
 async function buscarOuCriar(client, tabela, coluna, valor){
     const sql = `SELECT id FROM ${tabela} WHERE ${coluna} = $1`;
@@ -190,4 +314,51 @@ async function buscarOuCriar(client, tabela, coluna, valor){
 
     // Aqui ele retorna o id do elemento para a função
     return novo.rows[0].id;
+}
+
+async function buscarOuCriarDisciplina(client, nome, cursoID){
+
+    const resultado = await client.query(
+        `SELECT id FROM disciplina
+         WHERE nome = $1 AND curso_id = $2`,
+        [nome, cursoID]
+    );
+
+    if(resultado.rows.length > 0){
+        return resultado.rows[0].id;
+    }
+
+    const nova = await client.query(
+        `INSERT INTO disciplina(nome, curso_id)
+         VALUES($1,$2)
+         RETURNING id`,
+        [nome, cursoID]
+    );
+
+    return nova.rows[0].id;
+
+}
+
+async function buscarOuCriarProfessor(client, nome, disciplinaID){
+
+    const resultado = await client.query(
+        `SELECT id FROM professor
+         WHERE nome = $1
+         AND disciplina_id = $2`,
+        [nome, disciplinaID]
+    );
+
+    if(resultado.rows.length > 0){
+        return resultado.rows[0].id;
+    }
+
+    const novo = await client.query(
+        `INSERT INTO professor(nome, disciplina_id)
+         VALUES($1,$2)
+         RETURNING id`,
+        [nome, disciplinaID]
+    );
+
+    return novo.rows[0].id;
+
 }
