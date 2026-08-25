@@ -182,3 +182,139 @@ textarea:disabled{
 .pesquisa {
     margin-top: 1rem;
 }
+
+/* ========================= */
+/* MODAL VER AULAS */
+/* ========================= */
+
+.modal-aulas{
+    width: 80%;
+    max-width: 1100px;
+    height: 80vh;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal-aulas h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E30613;
+}
+
+.barra-pesquisa{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.barra-pesquisa input{
+    flex: 1;
+    height: 50px;
+}
+
+.barra-pesquisa select{
+    width: 220px;
+    border-radius: 15px;
+    border: 2px solid #E30613;
+    text-align: center;
+}
+
+/* Lista */
+
+.lista-aulas{
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Card da aula */
+
+.card-aula{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    border: 2px solid #E30613;
+    border-radius: 12px;
+    background: #fff8f8;
+}
+
+.info-aula{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-aula h3{
+    color: #E30613;
+    margin: 0;
+}
+
+.info-aula span{
+    font-size: 14px;
+}
+
+.acoes-aula{
+    display: flex;
+    gap: 12px;
+}
+
+.btn-editar{
+    background: #2563EB;
+}
+
+.btn-excluir{
+    background: #E30613;
+}
+
+.btn-editar,
+
+.btn-excluir{
+    border-radius: 12px;
+}
+
+/* ========================= */
+/* MODAL CONFIRMAÇÃO */
+/* ========================= */
+
+.modal-confirmacao{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.modal-confirmacao p{
+    text-align: center;
+}
+
+.confirmacao-botoes{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.confirmacao-botoes button{
+    flex: 1;
+    height: 50px;
+}
+
+.botao-vermelho{
+    background: #E30613;
+}
+
+.acoes-aula button{
+    width:120px;
+    height:45px;
+    border-radius:12px;
+}
