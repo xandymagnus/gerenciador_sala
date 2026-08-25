@@ -29,23 +29,276 @@ const inputBusca = document.getElementById("busca");
 const formBuscaAula = document.getElementById("form-busca-aula");
 
 // ================================
+// MODAL VER AULAS
+// ================================
+
+const overlayView = document.getElementById("overlay-view");
+const overlayDelete = document.getElementById("overlay-delete");
+const overlayEdit = document.getElementById("overlay-edit");
+
+const listaAulas = document.getElementById("lista-aulas");
+
+const pesquisaAula = document.getElementById("pesquisa-aula");
+const filtroCurso = document.getElementById("filtro-curso");
+
+const confirmarExclusao = document.getElementById("confirmar-exclusao");
+const cancelarExclusao = document.getElementById("cancelar-exclusao");
+const salvarEdicao = document.getElementById("salvar-edicao");
+
+let aulasBanco = [];
+let aulaSelecionada = null;
+
+
+
+// ================================
 // CHAMANDO A TELAS
 // ================================
+
 // Mostra
 addBotao.addEventListener("click", () => {
     overlay.classList.add("mostrar");
 });
 
-verAulas.addEventListener("click", () => {
-    editaAula.classList.add("mostrar");
-})
+verAulas.addEventListener("click", async () => {
+
+    overlayView.classList.add("mostrar");
+
+    await carregarAulas();
+
+});
+
+async function carregarAulas() {
+    try {
+        const resposta = await fetch("http://localhost:3000/aulas");
+
+        if (!resposta.ok) {
+            throw new Error("Erro ao buscar aulas.");
+        }
+
+        aulasBanco = await resposta.json();
+
+        console.log("Aulas recebidas:", aulasBanco); // teste
+
+        preencherFiltroCursos();
+        renderizarAulas(aulasBanco);
+
+    } catch (erro) {
+        console.error("Erro ao carregar aulas:", erro);
+    }
+}
+
+function renderizarAulas(lista) {
+
+    listaAulas.innerHTML = "";
+
+    if (lista.length === 0) {
+        listaAulas.innerHTML = "<p>Nenhuma aula cadastrada.</p>";
+        return;
+    }
+
+    lista.forEach((aula) => {
+
+        const card = document.createElement("div");
+        card.className = "card-aula";
+
+        card.innerHTML = `
+            <div class="info-aula">
+                <h3>${aula.disciplina}</h3>
+
+                <span><strong>Curso:</strong> ${aula.curso}</span>
+                <span><strong>Professor:</strong> ${aula.professor}</span>
+                <span><strong>Dia:</strong> ${aula.dia}</span>
+                <span><strong>Horário:</strong> ${aula.horarioinicio.slice(0,5)} - ${aula.horariofim.slice(0,5)}</span>
+                <span><strong>Sala:</strong> ${aula.sala}</span>
+            </div>
+
+            <div class="acoes-aula">
+                <button class="btn-editar" data-id="${aula.id}">Editar</button>
+                <button class="btn-excluir" data-id="${aula.id}">Excluir</button>
+            </div>
+        `;
+
+        listaAulas.appendChild(card);
+
+    });
+
+    eventosCards();
+}
+
+
+
+function eventosCards(){
+
+    document.querySelectorAll(".btn-excluir").forEach(botao => {
+
+        botao.addEventListener("click", () => {
+
+            aulaSelecionada = botao.dataset.id;
+
+            overlayDelete.classList.add("mostrar");
+
+        });
+
+    });
+
+    document.querySelectorAll(".btn-editar").forEach(botao => {
+
+        botao.addEventListener("click", () => {
+
+            abrirEditar(botao.dataset.id);
+
+        });
+
+    });
+
+}
+
+cancelarExclusao.addEventListener("click", ()=>{
+
+    overlayDelete.classList.remove("mostrar");
+
+});
+
+confirmarExclusao.addEventListener("click", async () => {
+
+    fetch(`http://localhost:3000/aulas/${aulaSelecionada}`, {
+        method: "DELETE"
+    });
+
+    if(resposta.ok){
+
+        overlayDelete.classList.remove("mostrar");
+
+        carregarAulas();
+
+    }
+
+});
+
+function abrirEditar(id){
+
+    const aula = aulasBanco.find(item => item.id == id);
+
+    document.getElementById("editar-id").value = aula.id;
+
+    document.getElementById("editar-curso").value = aula.curso;
+    document.getElementById("editar-disciplina").value = aula.disciplina;
+    document.getElementById("editar-professor").value = aula.professor;
+    document.getElementById("editar-dia").value = aula.dia;
+    document.getElementById("editar-sala").value = aula.sala;
+    document.getElementById("editar-horarioInicio").value = aula.horarioinicio;
+    document.getElementById("editar-horarioFim").value = aula.horariofim;
+
+    overlayEdit.classList.add("mostrar");
+
+}
+
+salvarEdicao.addEventListener("click", async () => {
+
+    const id = document.getElementById("editar-id").value;
+
+    const resposta = await fetch(
+        `http://localhost:3000/aulas/${id}`,
+        {
+            method:"PUT",
+
+            headers:{
+                "Content-Type":"application/json"
+            },
+
+            body: JSON.stringify({
+
+                curso: document.getElementById("editar-curso").value,
+
+                disciplina: document.getElementById("editar-disciplina").value,
+
+                professor: document.getElementById("editar-professor").value,
+
+                dia: document.getElementById("editar-dia").value,
+
+                sala: document.getElementById("editar-sala").value,
+
+                horarioInicio: document.getElementById("editar-horarioInicio").value,
+
+                horarioFim: document.getElementById("editar-horarioFim").value
+
+            })
+
+        }
+    );
+
+    if(resposta.ok){
+
+        overlayEdit.classList.remove("mostrar");
+
+        carregarAulas();
+
+        alert("Aula atualizada.");
+
+    }else{
+
+        alert("Erro ao editar aula.");
+
+    }
+
+});
+
+pesquisaAula.addEventListener("input", filtrarAulas);
+filtroCurso.addEventListener("change", filtrarAulas);
+
+function filtrarAulas(){
+
+    const texto = pesquisaAula.value.toLowerCase();
+
+    const cursoSelecionado = filtroCurso.value;
+
+    const listaFiltrada = aulasBanco.filter(aula => {
+
+        const pesquisa =
+            aula.curso.toLowerCase().includes(texto) ||
+            aula.professor.toLowerCase().includes(texto) ||
+            aula.disciplina.toLowerCase().includes(texto);
+
+        const filtro =
+            cursoSelecionado === "todos" ||
+            aula.curso === cursoSelecionado;
+
+        return pesquisa && filtro;
+
+    });
+
+    renderizarAulas(listaFiltrada);
+
+}
+
+function preencherFiltroCursos() {
+
+    filtroCurso.innerHTML =
+        `<option value="todos">Todos os cursos</option>`;
+
+    const cursos = [...new Set(aulasBanco.map(aula => aula.curso))];
+
+    cursos.forEach((curso) => {
+
+        const option = document.createElement("option");
+
+        option.value = curso;
+        option.textContent = curso;
+
+        filtroCurso.appendChild(option);
+    });
+}
 
 // Esconde
 
-sair.forEach(btnSair => {
-    btnSair.addEventListener("click", () => {
+sair.forEach((botao) => {
+    botao.addEventListener("click", () => {
+
         overlay.classList.remove("mostrar");
-        editaAula.classList.remove("mostrar");
+        overlayView.classList.remove("mostrar");
+        overlayEdit.classList.remove("mostrar");
+        overlayDelete.classList.remove("mostrar");
+
         curso.value = "";
         disciplina.value = "";
         professor.value = "";
@@ -53,8 +306,9 @@ sair.forEach(btnSair => {
         sala.value = "";
         horarioInicio.value = "";
         horarioFim.value = "";
-    })
-})
+
+    });
+});
 
 // ================================
 // LIBERANDO OS INPUTS
