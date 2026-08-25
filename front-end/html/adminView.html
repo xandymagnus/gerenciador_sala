@@ -29,7 +29,7 @@
 
     <div class="overlay" id="overlay">
         <div id="addMenu" class="addMenu">
-            <button class="sair" id="sair" type="click">X</button>
+            <button class="sair" id="fechar-add-menu" type="click">X</button>
 
             <input type="text" placeholder="Curso" id="curso" class="curso" list="listaCurso">
             <datalist id="listaCurso">
@@ -59,18 +59,99 @@
         </div>
     </div>
 
-    <div class="edita-aula overlay">
-        <div class="addMenu busca-aula">
-            <button class="sair" id="sair" type="click">X</button>
-            <form class="form-busca-aula" id="form-busca-aula">
-                <section class="pesquisa">
-                    <label for="busca">Pesquisar:</label>
-                    <input type="search" id="busca" name="q" placeholder="Digite o que procura...">
-                </section>
-            </form>
-            
+    <div class="overlay" id="overlay-view">
+
+    <div class="modal-aulas">
+
+        <button class="sair" id="fechar-view-menu">X</button>
+
+        <h2>Lista de aulas</h2>
+
+        <div class="barra-pesquisa">
+
+            <input
+                type="search"
+                id="pesquisa-aula"
+                placeholder="Pesquisar aula, professor, curso..."
+            >
+
+            <select id="filtro-curso">
+                <option value="todos">Todos os cursos</option>
+            </select>
+
         </div>
+
+        <div id="lista-aulas" class="lista-aulas">
+
+            <!-- JavaScript adiciona as aulas aqui -->
+
+        </div>
+
     </div>
+
+</div>
+
+<div class="overlay" id="overlay-delete">
+
+    <div class="modal-confirmacao">
+
+        <h3>Excluir aula</h3>
+
+        <p>
+            Tem certeza que deseja excluir esta aula?
+        </p>
+
+        <div class="confirmacao-botoes">
+
+            <button id="cancelar-exclusao">
+                Cancelar
+            </button>
+
+            <button id="confirmar-exclusao" class="botao-vermelho">
+                Excluir
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="overlay" id="overlay-edit">
+
+    <div class="addMenu">
+
+        <button class="sair" id="fechar-edit">X</button>
+
+        <h2>Editar aula</h2>
+
+        <input type="hidden" id="editar-id">
+
+        <input type="text" id="editar-curso" list="listaCurso">
+
+        <div class="disciplinaProfessor">
+
+            <input type="text" id="editar-disciplina" list="listaDisciplina">
+
+            <input type="text" id="editar-professor" list="listaProfessor">
+
+        </div>
+
+        <input type="text" id="editar-dia" list="listaDia">
+
+        <div class="salaHorario">
+            <input type="text" id="editar-sala" list="listaSala">
+            <input type="time" id="editar-horarioInicio">
+            <input type="time" id="editar-horarioFim">
+        </div>
+
+        <button id="salvar-edicao">
+            Salvar alterações
+        </button>
+
+    </div>
+
+</div>
 
     <script src="../js/admin.js"></script>
 </body>
