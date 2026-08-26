@@ -320,8 +320,8 @@ async function buscarOuCriarDisciplina(client, nome, cursoID){
 
     const resultado = await client.query(
         `SELECT id FROM disciplina
-         WHERE nome = $1 AND curso_id = $2`,
-        [nome, cursoID]
+         WHERE nome = $1`,
+        [nome]
     );
 
     if(resultado.rows.length > 0){
@@ -329,23 +329,22 @@ async function buscarOuCriarDisciplina(client, nome, cursoID){
     }
 
     const nova = await client.query(
-        `INSERT INTO disciplina(nome, curso_id)
-         VALUES($1,$2)
+        `INSERT INTO disciplina(nome)
+         VALUES($1)
          RETURNING id`,
-        [nome, cursoID]
+        [nome]
     );
 
     return nova.rows[0].id;
 
 }
 
-async function buscarOuCriarProfessor(client, nome, disciplinaID){
+async function buscarOuCriarProfessor(client, nome){
 
     const resultado = await client.query(
         `SELECT id FROM professor
-         WHERE nome = $1
-         AND disciplina_id = $2`,
-        [nome, disciplinaID]
+         WHERE nome = $1`,
+        [nome]
     );
 
     if(resultado.rows.length > 0){
@@ -353,10 +352,10 @@ async function buscarOuCriarProfessor(client, nome, disciplinaID){
     }
 
     const novo = await client.query(
-        `INSERT INTO professor(nome, disciplina_id)
-         VALUES($1,$2)
+        `INSERT INTO professor(nome)
+         VALUES($1)
          RETURNING id`,
-        [nome, disciplinaID]
+        [nome]
     );
 
     return novo.rows[0].id;
