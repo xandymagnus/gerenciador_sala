@@ -19,6 +19,7 @@ header{
 .logo{
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 header img{
@@ -36,6 +37,17 @@ header img{
     color: aliceblue;
     height: 15vh;
     font-family: "Lato", sans-serif;
+}
+
+.anchor-index {
+    font-size: 1.2rem;
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.anchor-index:hover {
+    color: #000;
 }
 
 .container_acoes{
