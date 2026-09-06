@@ -1,0 +1,13 @@
+:root {
+    /* CORES */
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #E30613;
+    --cor-secundaria-gradiant: #ff3b3b;
+    --cor-titulo: #f0f8ff;
+    --cor-header: linear-gradient(90deg, var(--cor-secundaria), var(--cor-secundaria-gradiant));
+    
+    /* TAMANHO */
+    --borda-padrao: 12px;
+    --titulo: 25px;
+
+}
