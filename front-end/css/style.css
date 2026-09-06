@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f4f4f4;
@@ -9,7 +11,7 @@ body {
 header{
     width: 100%;
     height: 15vh;
-    background: linear-gradient(90deg, #E30613, #ff3b3b);
+    background: var(--cor-header);
 }
 
 .logo{
@@ -27,9 +29,9 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: var(--titulo);
     font-weight: bold;
-    color: aliceblue;
+    color: var(--cor-titulo);
     height: 15vh;
     font-family: "Lato", sans-serif;
 }
@@ -40,7 +42,7 @@ header img{
     margin-top: 20px;    
     text-align: center;
     margin-bottom: 20px;
-    color: #E30613;
+    color: var(--cor-secundaria);
 }
 
 .container{
@@ -69,15 +71,15 @@ ul {
 }
 
 .infos {
-    background: linear-gradient(90deg, #E30613, #ff3b3b);
-    color: white;
+    background: linear-gradient(90deg, var(--cor-secundaria), var(--cor-secundaria-gradiant));
+    color: var(--cor-primaria);
     margin: 20px auto 20px;
     text-transform: uppercase;
 }
 
 .aula {
-    background: white;
-    color: #E30613;
+    background: var(--cor-primaria);
+    color: var(--cor-secundaria);
     margin: 5px auto 5px;
 
 

@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f4f4f4;
@@ -13,7 +15,7 @@ body {
 header{
     width: 100%;
     height: 15vh;
-    background: linear-gradient(90deg, #E30613, #ff3b3b);
+    background: var(--cor-header);
 }
 
 .logo{
@@ -32,9 +34,9 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: var(--titulo);
     font-weight: bold;
-    color: aliceblue;
+    color: var(--cor-titulo);
     height: 15vh;
     font-family: "Lato", sans-serif;
 }
@@ -59,7 +61,7 @@ header img{
     flex-direction: column;
     gap: 30%;
     border-radius: 23px;
-    border: 2px solid #E30613;
+    border: 2px solid var(--cor-secundaria);
     background-color: transparent;
 }
 
@@ -67,9 +69,9 @@ button{
     width: 75%;
     height: 10vh;
     border-radius: 23px;
-    background: linear-gradient(90deg, #E30613, #ff3b3b);
+    background: linear-gradient(90deg, var(--cor-secundaria), var(--cor-secundaria-gradiant));
     font-size: 110%;
-    color: aliceblue;
+    color: var(--cor-titulo);
     cursor: pointer;
 }
 
@@ -97,7 +99,7 @@ button:hover{
     align-items: center;
     gap: 2%;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--cor-primaria);
 }
 
 .mostrar{
@@ -120,7 +122,7 @@ input{
     border-radius: 15px;
     text-align: center;
     font-size: 130%;
-    border: 2px solid #E30613;
+    border: 2px solid var(--cor-secundaria);
     background-color: transparent;
 }
 
@@ -203,8 +205,8 @@ textarea:disabled{
     width: 80%;
     max-width: 1100px;
     height: 80vh;
-    background: white;
-    border-radius: 12px;
+    background: var(--cor-primaria);
+    border-radius: var(--borda-padrao);
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -214,7 +216,7 @@ textarea:disabled{
 .modal-aulas h2{
     text-align: center;
     margin-bottom: 20px;
-    color: #E30613;
+    color: var(--cor-secundaria);
 }
 
 .barra-pesquisa{
@@ -231,7 +233,7 @@ textarea:disabled{
 .barra-pesquisa select{
     width: 220px;
     border-radius: 15px;
-    border: 2px solid #E30613;
+    border: 2px solid var(--cor-secundaria);
     text-align: center;
 }
 
@@ -242,7 +244,7 @@ textarea:disabled{
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: var(--borda-padrao);
 }
 
 /* Card da aula */
@@ -252,8 +254,8 @@ textarea:disabled{
     justify-content: space-between;
     align-items: center;
     padding: 18px;
-    border: 2px solid #E30613;
-    border-radius: 12px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: var(--borda-padrao);
     background: #fff8f8;
 }
 
@@ -264,7 +266,7 @@ textarea:disabled{
 }
 
 .info-aula h3{
-    color: #E30613;
+    color: var(--cor-secundaria);
     margin: 0;
 }
 
@@ -274,7 +276,7 @@ textarea:disabled{
 
 .acoes-aula{
     display: flex;
-    gap: 12px;
+    gap: var(--borda-padrao);
 }
 
 .btn-editar{
@@ -282,13 +284,13 @@ textarea:disabled{
 }
 
 .btn-excluir{
-    background: #E30613;
+    background: var(--cor-secundaria);
 }
 
 .btn-editar,
 
 .btn-excluir{
-    border-radius: 12px;
+    border-radius: var(--borda-padrao);
 }
 
 /* ========================= */
@@ -297,9 +299,9 @@ textarea:disabled{
 
 .modal-confirmacao{
     width: 400px;
-    background: white;
+    background: var(--cor-primaria);
     padding: 30px;
-    border-radius: 12px;
+    border-radius: var(--borda-padrao);
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -322,11 +324,11 @@ textarea:disabled{
 }
 
 .botao-vermelho{
-    background: #E30613;
+    background: var(--cor-secundaria);
 }
 
 .acoes-aula button{
     width:120px;
     height:45px;
-    border-radius:12px;
+    border-radius:var(--borda-padrao);
 }
